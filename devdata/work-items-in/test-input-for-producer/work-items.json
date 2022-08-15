@@ -1,0 +1,33 @@
+[
+  {
+    "payload": {
+      "email": {
+        "to": [
+          {
+            "address": "process.marks.moon_mission.a1234@mail.ci.robocloud.dev",
+            "name": ""
+          }
+        ],
+        "from": {
+          "address": "mark.the.monkey@robocorp.com",
+          "name": "Mark the Monkey"
+        },
+        "cc": [],
+        "bcc": [],
+        "replyTo": {
+          "address": "mark@robocorp.com",
+          "name": "Mark the Monkey"
+        },
+        "date": "2022-02-22T06:00:00Z",
+        "subject": "A small step for a monkey...",
+        "text": "..."
+      }
+    },
+      "files": {
+          "another-invoice.pdf": "another-invoice.pdf",
+          "invoice.png": "invoice.png",
+          "acord.png": "acord.png",
+          "drivers-licence.png": "drivers-licence.png"
+      }
+  }
+]

@@ -1,0 +1,3113 @@
+[
+    {
+        "payload": {
+            "model": {
+                "name": "ACORD 25 certificate of liability insurance form",
+                "confidence": 1,
+                "type": "insurance/acord/25"
+            },
+            "fields": {
+                "formVersion": {
+                    "key": "Form version",
+                    "value": "2010/05",
+                    "confidence": 1,
+                    "isValid": true,
+                    "location": {
+                        "topLeft": {
+                            "x": 212,
+                            "y": 2433
+                        },
+                        "topRight": {
+                            "x": 332,
+                            "y": 2433
+                        },
+                        "bottomLeft": {
+                            "x": 212,
+                            "y": 2464
+                        },
+                        "bottomRight": {
+                            "x": 332,
+                            "y": 2464
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "date": {
+                    "key": "Date",
+                    "value": "2020-05-31",
+                    "confidence": 1,
+                    "isValid": true,
+                    "type": "date"
+                },
+                "producer": {
+                    "key": "Producer",
+                    "value": "Hollywood Insurance Brokers 9800 Santa Monica Blvd Beverly Hills, CA 90210",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 70,
+                            "y": 435
+                        },
+                        "topRight": {
+                            "x": 414,
+                            "y": 435
+                        },
+                        "bottomLeft": {
+                            "x": 70,
+                            "y": 543
+                        },
+                        "bottomRight": {
+                            "x": 414,
+                            "y": 543
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "insured": {
+                    "key": "Insured",
+                    "value": "A Cow Jumped Over the Moon, LLC 500 Manhattan Ave ., Ste. G New York, NY 10001",
+                    "confidence": 1,
+                    "location": {
+                        "topLeft": {
+                            "x": 237,
+                            "y": 630
+                        },
+                        "topRight": {
+                            "x": 652,
+                            "y": 630
+                        },
+                        "bottomLeft": {
+                            "x": 237,
+                            "y": 739
+                        },
+                        "bottomRight": {
+                            "x": 652,
+                            "y": 739
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "contactPhone": {
+                    "key": "Contact phone",
+                    "value": "(987) 654-3210",
+                    "confidence": 0.92,
+                    "location": {
+                        "topLeft": {
+                            "x": 1000,
+                            "y": 436
+                        },
+                        "topRight": {
+                            "x": 1367,
+                            "y": 436
+                        },
+                        "bottomLeft": {
+                            "x": 1000,
+                            "y": 471
+                        },
+                        "bottomRight": {
+                            "x": 1367,
+                            "y": 471
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "contactFax": {
+                    "key": "Contact fax",
+                    "value": "(123) 555-6789",
+                    "confidence": 0.91,
+                    "location": {
+                        "topLeft": {
+                            "x": 1594,
+                            "y": 435
+                        },
+                        "topRight": {
+                            "x": 1849,
+                            "y": 435
+                        },
+                        "bottomLeft": {
+                            "x": 1594,
+                            "y": 468
+                        },
+                        "bottomRight": {
+                            "x": 1849,
+                            "y": 468
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "contactEmail": {
+                    "key": "Contact email",
+                    "value": "johnthebroker@hollywoodbrokers.com",
+                    "confidence": 0.96,
+                    "location": {
+                        "topLeft": {
+                            "x": 1127,
+                            "y": 479
+                        },
+                        "topRight": {
+                            "x": 1572,
+                            "y": 479
+                        },
+                        "bottomLeft": {
+                            "x": 1127,
+                            "y": 505
+                        },
+                        "bottomRight": {
+                            "x": 1572,
+                            "y": 505
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "certificateHolder": {
+                    "key": "Certificate holder",
+                    "value": "A Very Tall Building 780 Manhattan Ave. 12th Floor, Ste. 102 New York, New York 10001",
+                    "confidence": 1,
+                    "location": {
+                        "topLeft": {
+                            "x": 63,
+                            "y": 2125
+                        },
+                        "topRight": {
+                            "x": 559,
+                            "y": 2125
+                        },
+                        "bottomLeft": {
+                            "x": 63,
+                            "y": 2368
+                        },
+                        "bottomRight": {
+                            "x": 559,
+                            "y": 2368
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "description": {
+                    "key": "Description",
+                    "value": "Certificate Holder, along with its officers, directors, and employees are named as additional insured. A waiver of subrogation applies to General and Auto\nLiability policies.\nInland Marine deductible is $1,500 for Third Party Property Damage.",
+                    "confidence": 1,
+                    "location": {
+                        "topLeft": {
+                            "x": 74,
+                            "y": 1884
+                        },
+                        "topRight": {
+                            "x": 1837,
+                            "y": 1884
+                        },
+                        "bottomLeft": {
+                            "x": 74,
+                            "y": 1915
+                        },
+                        "bottomRight": {
+                            "x": 1837,
+                            "y": 1915
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "insurer-a-name": {
+                    "key": "Insurer A name",
+                    "value": "Really Good Insurance Company",
+                    "confidence": 0.97,
+                    "location": {
+                        "topLeft": {
+                            "x": 1006,
+                            "y": 554
+                        },
+                        "topRight": {
+                            "x": 1551,
+                            "y": 554
+                        },
+                        "bottomLeft": {
+                            "x": 1006,
+                            "y": 587
+                        },
+                        "bottomRight": {
+                            "x": 1551,
+                            "y": 587
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "insurer-a-code": {
+                    "key": "Insurer A code",
+                    "value": "12345",
+                    "confidence": 1,
+                    "location": {
+                        "topLeft": {
+                            "x": 1781,
+                            "y": 556
+                        },
+                        "topRight": {
+                            "x": 1849,
+                            "y": 556
+                        },
+                        "bottomLeft": {
+                            "x": 1781,
+                            "y": 577
+                        },
+                        "bottomRight": {
+                            "x": 1849,
+                            "y": 577
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "insurer-b-name": {
+                    "key": "Insurer B name",
+                    "value": "Fire and Rain Insurance",
+                    "confidence": 0.97,
+                    "location": {
+                        "topLeft": {
+                            "x": 1008,
+                            "y": 594
+                        },
+                        "topRight": {
+                            "x": 1419,
+                            "y": 594
+                        },
+                        "bottomLeft": {
+                            "x": 1008,
+                            "y": 625
+                        },
+                        "bottomRight": {
+                            "x": 1419,
+                            "y": 625
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "insurer-b-code": {
+                    "key": "Insurer B code",
+                    "value": "67890",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 1779,
+                            "y": 597
+                        },
+                        "topRight": {
+                            "x": 1849,
+                            "y": 597
+                        },
+                        "bottomLeft": {
+                            "x": 1779,
+                            "y": 617
+                        },
+                        "bottomRight": {
+                            "x": 1849,
+                            "y": 617
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "insurer-c-name": {
+                    "key": "Insurer C name",
+                    "value": "",
+                    "confidence": 1
+                },
+                "insurer-c-code": {
+                    "key": "Insurer C code",
+                    "value": "",
+                    "confidence": 1
+                },
+                "insurer-d-name": {
+                    "key": "Insurer D name",
+                    "value": "",
+                    "confidence": 1
+                },
+                "insurer-d-code": {
+                    "key": "Insurer D code",
+                    "value": "",
+                    "confidence": 1
+                },
+                "insurer-e-name": {
+                    "key": "Insurer E name",
+                    "value": "",
+                    "confidence": 1
+                },
+                "insurer-e-code": {
+                    "key": "Insurer E code",
+                    "value": "",
+                    "confidence": 1
+                },
+                "insurer-f-name": {
+                    "key": "Insurer F name",
+                    "value": "",
+                    "confidence": 1
+                },
+                "insurer-f-code": {
+                    "key": "Insurer F code",
+                    "value": "",
+                    "confidence": 1
+                },
+                "contactName": {
+                    "key": "Contact name",
+                    "value": "John Hancock",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 1131,
+                            "y": 395
+                        },
+                        "topRight": {
+                            "x": 1298,
+                            "y": 395
+                        },
+                        "bottomLeft": {
+                            "x": 1131,
+                            "y": 424
+                        },
+                        "bottomRight": {
+                            "x": 1298,
+                            "y": 424
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "certificateNumber": {
+                    "key": "Certificate number",
+                    "value": "ABC-12345",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 846,
+                            "y": 788
+                        },
+                        "topRight": {
+                            "x": 972,
+                            "y": 788
+                        },
+                        "bottomLeft": {
+                            "x": 846,
+                            "y": 817
+                        },
+                        "bottomRight": {
+                            "x": 972,
+                            "y": 817
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "generalLiabilityProvider": {
+                    "key": "General liability provider",
+                    "value": "A",
+                    "confidence": 0.37,
+                    "location": {
+                        "topLeft": {
+                            "x": 72,
+                            "y": 70
+                        },
+                        "topRight": {
+                            "x": 286,
+                            "y": 70
+                        },
+                        "bottomLeft": {
+                            "x": 72,
+                            "y": 126
+                        },
+                        "bottomRight": {
+                            "x": 286,
+                            "y": 126
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "generalLiabilityCommercialGeneralLiability": {
+                    "key": "General liability commercial general liability",
+                    "value": "Yes",
+                    "type": "boolean",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 137,
+                            "y": 1683
+                        },
+                        "topRight": {
+                            "x": 175,
+                            "y": 1683
+                        },
+                        "bottomLeft": {
+                            "x": 137,
+                            "y": 1703
+                        },
+                        "bottomRight": {
+                            "x": 175,
+                            "y": 1703
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "generalLiabilityClaimsMade": {
+                    "key": "General liability claims made",
+                    "value": "Yes",
+                    "type": "boolean",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 137,
+                            "y": 1683
+                        },
+                        "topRight": {
+                            "x": 175,
+                            "y": 1683
+                        },
+                        "bottomLeft": {
+                            "x": 137,
+                            "y": 1703
+                        },
+                        "bottomRight": {
+                            "x": 175,
+                            "y": 1703
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "generalLiabilityOccurrence": {
+                    "key": "General liability occurrence",
+                    "value": "Yes",
+                    "type": "boolean",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 137,
+                            "y": 1683
+                        },
+                        "topRight": {
+                            "x": 175,
+                            "y": 1683
+                        },
+                        "bottomLeft": {
+                            "x": 137,
+                            "y": 1703
+                        },
+                        "bottomRight": {
+                            "x": 175,
+                            "y": 1703
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "generalLiabilityPolicy": {
+                    "key": "General liability policy",
+                    "value": "Yes",
+                    "type": "boolean",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 137,
+                            "y": 1683
+                        },
+                        "topRight": {
+                            "x": 175,
+                            "y": 1683
+                        },
+                        "bottomLeft": {
+                            "x": 137,
+                            "y": 1703
+                        },
+                        "bottomRight": {
+                            "x": 175,
+                            "y": 1703
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "generalLiabilityProject": {
+                    "key": "General liability project",
+                    "value": "Yes",
+                    "type": "boolean",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 137,
+                            "y": 1683
+                        },
+                        "topRight": {
+                            "x": 175,
+                            "y": 1683
+                        },
+                        "bottomLeft": {
+                            "x": 137,
+                            "y": 1703
+                        },
+                        "bottomRight": {
+                            "x": 175,
+                            "y": 1703
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "generalLiabilityLocation": {
+                    "key": "General liability location",
+                    "value": "Yes",
+                    "type": "boolean",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 137,
+                            "y": 1683
+                        },
+                        "topRight": {
+                            "x": 175,
+                            "y": 1683
+                        },
+                        "bottomLeft": {
+                            "x": 137,
+                            "y": 1703
+                        },
+                        "bottomRight": {
+                            "x": 175,
+                            "y": 1703
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "generalLiabilityCustomLiability1": {
+                    "key": "General liability custom liability 1",
+                    "value": "Additional general liability 1",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 175,
+                            "y": 1102
+                        },
+                        "topRight": {
+                            "x": 463,
+                            "y": 1102
+                        },
+                        "bottomLeft": {
+                            "x": 175,
+                            "y": 1134
+                        },
+                        "bottomRight": {
+                            "x": 463,
+                            "y": 1134
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "generalLiabilityCustomLiability2": {
+                    "key": "General liability custom liability 2",
+                    "value": "ADDITONAL GL 2 UPPERCASE",
+                    "confidence": 1,
+                    "location": {
+                        "topLeft": {
+                            "x": 184,
+                            "y": 1141
+                        },
+                        "topRight": {
+                            "x": 527,
+                            "y": 1141
+                        },
+                        "bottomLeft": {
+                            "x": 184,
+                            "y": 1170
+                        },
+                        "bottomRight": {
+                            "x": 527,
+                            "y": 1170
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "generalLiabilityAdditionalInsured": {
+                    "key": "General liability additional insured",
+                    "value": "Yes",
+                    "type": "boolean",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 137,
+                            "y": 1683
+                        },
+                        "topRight": {
+                            "x": 175,
+                            "y": 1683
+                        },
+                        "bottomLeft": {
+                            "x": 137,
+                            "y": 1703
+                        },
+                        "bottomRight": {
+                            "x": 175,
+                            "y": 1703
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "generalLiabilitySubrogationWaived": {
+                    "key": "General liability subrogation waived",
+                    "value": "Yes",
+                    "type": "boolean",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 137,
+                            "y": 1683
+                        },
+                        "topRight": {
+                            "x": 175,
+                            "y": 1683
+                        },
+                        "bottomLeft": {
+                            "x": 137,
+                            "y": 1703
+                        },
+                        "bottomRight": {
+                            "x": 175,
+                            "y": 1703
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "generalLiabilityPolicyNumber": {
+                    "key": "General liability policy number",
+                    "value": "12345678910",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 706,
+                            "y": 1100
+                        },
+                        "topRight": {
+                            "x": 869,
+                            "y": 1100
+                        },
+                        "bottomLeft": {
+                            "x": 706,
+                            "y": 1126
+                        },
+                        "bottomRight": {
+                            "x": 869,
+                            "y": 1126
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "generalLiabilityPolicyEffectiveDate": {
+                    "key": "General liability policy effective date",
+                    "value": "2020-01-01",
+                    "type": "date",
+                    "isValid": true,
+                    "confidence": 0.98,
+                    "location": {
+                        "topLeft": {
+                            "x": 1088,
+                            "y": 1337
+                        },
+                        "topRight": {
+                            "x": 1375,
+                            "y": 1337
+                        },
+                        "bottomLeft": {
+                            "x": 1088,
+                            "y": 1368
+                        },
+                        "bottomRight": {
+                            "x": 1375,
+                            "y": 1368
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "generalLiabilityPolicyExpirationDate": {
+                    "key": "General liability policy expiration date",
+                    "value": "2021-01-01",
+                    "type": "date",
+                    "isValid": false,
+                    "confidence": 1
+                },
+                "generalLiabilityLimitEachOccurrence": {
+                    "key": "General liability limit for each occurrence",
+                    "value": "1,000,000",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 1810,
+                            "y": 986
+                        },
+                        "topRight": {
+                            "x": 1922,
+                            "y": 986
+                        },
+                        "bottomLeft": {
+                            "x": 1810,
+                            "y": 1012
+                        },
+                        "bottomRight": {
+                            "x": 1922,
+                            "y": 1012
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "generalLiabilityLimitDamageToRentedPremisesOnEachOccurrence": {
+                    "key": "General liability limit for damage to rented premises on each occurrence",
+                    "value": "100,000",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 1833,
+                            "y": 1027
+                        },
+                        "topRight": {
+                            "x": 1921,
+                            "y": 1027
+                        },
+                        "bottomLeft": {
+                            "x": 1833,
+                            "y": 1051
+                        },
+                        "bottomRight": {
+                            "x": 1921,
+                            "y": 1051
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "generalLiabilityLimitMedicalExpensesOfAnyOnePerson": {
+                    "key": "General liability limit for medical expenses of any one person",
+                    "value": "5,000",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 1858,
+                            "y": 1065
+                        },
+                        "topRight": {
+                            "x": 1922,
+                            "y": 1065
+                        },
+                        "bottomLeft": {
+                            "x": 1858,
+                            "y": 1090
+                        },
+                        "bottomRight": {
+                            "x": 1922,
+                            "y": 1090
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "generalLiabilityLimitPersonalAdvertisingInjury": {
+                    "key": "General liability limit for personal & advertising injury",
+                    "value": "1,000,000",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 1810,
+                            "y": 986
+                        },
+                        "topRight": {
+                            "x": 1922,
+                            "y": 986
+                        },
+                        "bottomLeft": {
+                            "x": 1810,
+                            "y": 1012
+                        },
+                        "bottomRight": {
+                            "x": 1922,
+                            "y": 1012
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "generalLiabilityLimitGeneralAggregate": {
+                    "key": "General liability limit for general aggregate",
+                    "value": "2,000,000",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 1806,
+                            "y": 1143
+                        },
+                        "topRight": {
+                            "x": 1920,
+                            "y": 1143
+                        },
+                        "bottomLeft": {
+                            "x": 1806,
+                            "y": 1170
+                        },
+                        "bottomRight": {
+                            "x": 1920,
+                            "y": 1170
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "generalLiabilityLimitProducts": {
+                    "key": "General liability limit for products",
+                    "value": "1,000,000",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 1810,
+                            "y": 986
+                        },
+                        "topRight": {
+                            "x": 1922,
+                            "y": 986
+                        },
+                        "bottomLeft": {
+                            "x": 1810,
+                            "y": 1012
+                        },
+                        "bottomRight": {
+                            "x": 1922,
+                            "y": 1012
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "automobileLiabilityProvider": {
+                    "key": "Automobile liability provider",
+                    "value": "A",
+                    "confidence": 0.37,
+                    "location": {
+                        "topLeft": {
+                            "x": 72,
+                            "y": 70
+                        },
+                        "topRight": {
+                            "x": 286,
+                            "y": 70
+                        },
+                        "bottomLeft": {
+                            "x": 72,
+                            "y": 126
+                        },
+                        "bottomRight": {
+                            "x": 286,
+                            "y": 126
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "automobileLiabilityAnyAuto": {
+                    "key": "Automobile liability any auto",
+                    "value": "Yes",
+                    "type": "boolean",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 137,
+                            "y": 1683
+                        },
+                        "topRight": {
+                            "x": 175,
+                            "y": 1683
+                        },
+                        "bottomLeft": {
+                            "x": 137,
+                            "y": 1703
+                        },
+                        "bottomRight": {
+                            "x": 175,
+                            "y": 1703
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "automobileLiabilityOwnedAutosOnly": {
+                    "key": "Automobile liability owned autos only",
+                    "value": "Yes",
+                    "type": "boolean",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 137,
+                            "y": 1683
+                        },
+                        "topRight": {
+                            "x": 175,
+                            "y": 1683
+                        },
+                        "bottomLeft": {
+                            "x": 137,
+                            "y": 1703
+                        },
+                        "bottomRight": {
+                            "x": 175,
+                            "y": 1703
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "automobileLiabilityScheduledAutos": {
+                    "key": "Automobile liability scheduled autos",
+                    "value": "Yes",
+                    "type": "boolean",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 137,
+                            "y": 1683
+                        },
+                        "topRight": {
+                            "x": 175,
+                            "y": 1683
+                        },
+                        "bottomLeft": {
+                            "x": 137,
+                            "y": 1703
+                        },
+                        "bottomRight": {
+                            "x": 175,
+                            "y": 1703
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "automobileLiabilityHiredAutosOnly": {
+                    "key": "Automobile liability hired autos only",
+                    "value": "Yes",
+                    "type": "boolean",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 137,
+                            "y": 1683
+                        },
+                        "topRight": {
+                            "x": 175,
+                            "y": 1683
+                        },
+                        "bottomLeft": {
+                            "x": 137,
+                            "y": 1703
+                        },
+                        "bottomRight": {
+                            "x": 175,
+                            "y": 1703
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "automobileLiabilityNonOwnedAutosOnly": {
+                    "key": "Automobile liability non-owned autos only",
+                    "value": "Yes",
+                    "type": "boolean",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 137,
+                            "y": 1683
+                        },
+                        "topRight": {
+                            "x": 175,
+                            "y": 1683
+                        },
+                        "bottomLeft": {
+                            "x": 137,
+                            "y": 1703
+                        },
+                        "bottomRight": {
+                            "x": 175,
+                            "y": 1703
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "automobileLiabilityCustomLiability1": {
+                    "key": "Automobile liability custom liability 1",
+                    "value": "EXTRA AUTO1",
+                    "confidence": 1,
+                    "location": {
+                        "topLeft": {
+                            "x": 179,
+                            "y": 1422
+                        },
+                        "topRight": {
+                            "x": 338,
+                            "y": 1422
+                        },
+                        "bottomLeft": {
+                            "x": 179,
+                            "y": 1443
+                        },
+                        "bottomRight": {
+                            "x": 338,
+                            "y": 1443
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "automobileLiabilityCustomLiability2": {
+                    "key": "Automobile liability custom liability 2",
+                    "value": "EXTRA AUTO2",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 397,
+                            "y": 1421
+                        },
+                        "topRight": {
+                            "x": 555,
+                            "y": 1421
+                        },
+                        "bottomLeft": {
+                            "x": 397,
+                            "y": 1443
+                        },
+                        "bottomRight": {
+                            "x": 555,
+                            "y": 1443
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "automobileLiabilityAdditionalInsured": {
+                    "key": "Automobile liability additional insured",
+                    "value": "Yes",
+                    "type": "boolean",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 137,
+                            "y": 1683
+                        },
+                        "topRight": {
+                            "x": 175,
+                            "y": 1683
+                        },
+                        "bottomLeft": {
+                            "x": 137,
+                            "y": 1703
+                        },
+                        "bottomRight": {
+                            "x": 175,
+                            "y": 1703
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "automobileLiabilitySubrogationWaived": {
+                    "key": "Automobile liability subrogation waived",
+                    "value": "Yes",
+                    "type": "boolean",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 137,
+                            "y": 1683
+                        },
+                        "topRight": {
+                            "x": 175,
+                            "y": 1683
+                        },
+                        "bottomLeft": {
+                            "x": 137,
+                            "y": 1703
+                        },
+                        "bottomRight": {
+                            "x": 175,
+                            "y": 1703
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "automobileLiabilityPolicyNumber": {
+                    "key": "Automobile liability policy number",
+                    "value": "12345678910",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 706,
+                            "y": 1100
+                        },
+                        "topRight": {
+                            "x": 869,
+                            "y": 1100
+                        },
+                        "bottomLeft": {
+                            "x": 706,
+                            "y": 1126
+                        },
+                        "bottomRight": {
+                            "x": 869,
+                            "y": 1126
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "automobileLiabilityPolicyEffectiveDate": {
+                    "key": "Automobile liability policy effective date",
+                    "value": "2020-01-01",
+                    "type": "date",
+                    "isValid": true,
+                    "confidence": 0.98,
+                    "location": {
+                        "topLeft": {
+                            "x": 1088,
+                            "y": 1337
+                        },
+                        "topRight": {
+                            "x": 1375,
+                            "y": 1337
+                        },
+                        "bottomLeft": {
+                            "x": 1088,
+                            "y": 1368
+                        },
+                        "bottomRight": {
+                            "x": 1375,
+                            "y": 1368
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "automobileLiabilityPolicyExpirationDate": {
+                    "key": "Automobile liability policy expiration date",
+                    "value": "2021-01-01",
+                    "type": "date",
+                    "isValid": false,
+                    "confidence": 1
+                },
+                "automobileLiabilityLimitCombinedSingleLimitOnEachAccident": {
+                    "key": "Automobile liability limit for combined single limit on each accident",
+                    "value": "1,000,000",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 1810,
+                            "y": 986
+                        },
+                        "topRight": {
+                            "x": 1922,
+                            "y": 986
+                        },
+                        "bottomLeft": {
+                            "x": 1810,
+                            "y": 1012
+                        },
+                        "bottomRight": {
+                            "x": 1922,
+                            "y": 1012
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "automobileLiabilityLimitBodilyInjuryPerPerson": {
+                    "key": "Automobile liability limit for bodily injury per person",
+                    "value": "1,000,000",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 1810,
+                            "y": 986
+                        },
+                        "topRight": {
+                            "x": 1922,
+                            "y": 986
+                        },
+                        "bottomLeft": {
+                            "x": 1810,
+                            "y": 1012
+                        },
+                        "bottomRight": {
+                            "x": 1922,
+                            "y": 1012
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "automobileLiabilityLimitBodilyInjuryPerAccident": {
+                    "key": "Automobile liability limit for bodily injury per accident",
+                    "value": "1,000,000",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 1810,
+                            "y": 986
+                        },
+                        "topRight": {
+                            "x": 1922,
+                            "y": 986
+                        },
+                        "bottomLeft": {
+                            "x": 1810,
+                            "y": 1012
+                        },
+                        "bottomRight": {
+                            "x": 1922,
+                            "y": 1012
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "automobileLiabilityLimitPropertyDamagePerAccident": {
+                    "key": "Automobile liability limit for property damage per accident",
+                    "value": "125,000/500,000",
+                    "confidence": 0.99,
+                    "isValid": false,
+                    "location": {
+                        "topLeft": {
+                            "x": 1727,
+                            "y": 1379
+                        },
+                        "topRight": {
+                            "x": 1922,
+                            "y": 1379
+                        },
+                        "bottomLeft": {
+                            "x": 1727,
+                            "y": 1405
+                        },
+                        "bottomRight": {
+                            "x": 1922,
+                            "y": 1405
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "automobileLiabilityLimitOther1": {
+                    "key": "Automobile liability limit for deductible",
+                    "value": "1,500",
+                    "confidence": 1,
+                    "isValid": false,
+                    "location": {
+                        "topLeft": {
+                            "x": 1859,
+                            "y": 1417
+                        },
+                        "topRight": {
+                            "x": 1924,
+                            "y": 1417
+                        },
+                        "bottomLeft": {
+                            "x": 1859,
+                            "y": 1443
+                        },
+                        "bottomRight": {
+                            "x": 1924,
+                            "y": 1443
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "umbrellaLiabilityProvider": {
+                    "key": "Umbrella liability provider",
+                    "value": "A",
+                    "confidence": 0.37,
+                    "location": {
+                        "topLeft": {
+                            "x": 72,
+                            "y": 70
+                        },
+                        "topRight": {
+                            "x": 286,
+                            "y": 70
+                        },
+                        "bottomLeft": {
+                            "x": 72,
+                            "y": 126
+                        },
+                        "bottomRight": {
+                            "x": 286,
+                            "y": 126
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "umbrellaLiabilityClaimsMade": {
+                    "key": "Umbrella liability claims made",
+                    "value": "Yes",
+                    "type": "boolean",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 137,
+                            "y": 1683
+                        },
+                        "topRight": {
+                            "x": 175,
+                            "y": 1683
+                        },
+                        "bottomLeft": {
+                            "x": 137,
+                            "y": 1703
+                        },
+                        "bottomRight": {
+                            "x": 175,
+                            "y": 1703
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "umbrellaLiabilityOccurrence": {
+                    "key": "Umbrella liability occurrence",
+                    "value": "Yes",
+                    "type": "boolean",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 137,
+                            "y": 1683
+                        },
+                        "topRight": {
+                            "x": 175,
+                            "y": 1683
+                        },
+                        "bottomLeft": {
+                            "x": 137,
+                            "y": 1703
+                        },
+                        "bottomRight": {
+                            "x": 175,
+                            "y": 1703
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "umbrellaLiabilityUmbrellaLiability": {
+                    "key": "Umbrella liability umbrella liability",
+                    "value": "Yes",
+                    "type": "boolean",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 137,
+                            "y": 1683
+                        },
+                        "topRight": {
+                            "x": 175,
+                            "y": 1683
+                        },
+                        "bottomLeft": {
+                            "x": 137,
+                            "y": 1703
+                        },
+                        "bottomRight": {
+                            "x": 175,
+                            "y": 1703
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "umbrellaLiabilityExcessLiability": {
+                    "key": "Umbrella liability excess liability",
+                    "value": "Yes",
+                    "type": "boolean",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 137,
+                            "y": 1683
+                        },
+                        "topRight": {
+                            "x": 175,
+                            "y": 1683
+                        },
+                        "bottomLeft": {
+                            "x": 137,
+                            "y": 1703
+                        },
+                        "bottomRight": {
+                            "x": 175,
+                            "y": 1703
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "umbrellaLiabilityDed": {
+                    "key": "Umbrella liability ded",
+                    "value": "Yes",
+                    "type": "boolean",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 137,
+                            "y": 1683
+                        },
+                        "topRight": {
+                            "x": 175,
+                            "y": 1683
+                        },
+                        "bottomLeft": {
+                            "x": 137,
+                            "y": 1703
+                        },
+                        "bottomRight": {
+                            "x": 175,
+                            "y": 1703
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "umbrellaLiabilityRetention": {
+                    "key": "Umbrella liability retention",
+                    "value": "$123,456.00",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 410,
+                            "y": 1541
+                        },
+                        "topRight": {
+                            "x": 538,
+                            "y": 1541
+                        },
+                        "bottomLeft": {
+                            "x": 410,
+                            "y": 1562
+                        },
+                        "bottomRight": {
+                            "x": 538,
+                            "y": 1562
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "umbrellaLiabilityAdditionalInsured": {
+                    "key": "Umbrella liability additional insured",
+                    "value": "Yes",
+                    "type": "boolean",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 137,
+                            "y": 1683
+                        },
+                        "topRight": {
+                            "x": 175,
+                            "y": 1683
+                        },
+                        "bottomLeft": {
+                            "x": 137,
+                            "y": 1703
+                        },
+                        "bottomRight": {
+                            "x": 175,
+                            "y": 1703
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "umbrellaLiabilitySubrogationWaived": {
+                    "key": "Umbrella liability subrogation waived",
+                    "value": "Yes",
+                    "type": "boolean",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 137,
+                            "y": 1683
+                        },
+                        "topRight": {
+                            "x": 175,
+                            "y": 1683
+                        },
+                        "bottomLeft": {
+                            "x": 137,
+                            "y": 1703
+                        },
+                        "bottomRight": {
+                            "x": 175,
+                            "y": 1703
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "umbrellaLiabilityPolicyNumber": {
+                    "key": "Umbrella liability policy number",
+                    "value": "12345678910",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 706,
+                            "y": 1100
+                        },
+                        "topRight": {
+                            "x": 869,
+                            "y": 1100
+                        },
+                        "bottomLeft": {
+                            "x": 706,
+                            "y": 1126
+                        },
+                        "bottomRight": {
+                            "x": 869,
+                            "y": 1126
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "umbrellaLiabilityPolicyEffectiveDate": {
+                    "key": "Umbrella liability policy effective date",
+                    "value": "2020-01-01",
+                    "type": "date",
+                    "isValid": true,
+                    "confidence": 0.98,
+                    "location": {
+                        "topLeft": {
+                            "x": 1088,
+                            "y": 1337
+                        },
+                        "topRight": {
+                            "x": 1375,
+                            "y": 1337
+                        },
+                        "bottomLeft": {
+                            "x": 1088,
+                            "y": 1368
+                        },
+                        "bottomRight": {
+                            "x": 1375,
+                            "y": 1368
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "umbrellaLiabilityPolicyExpirationDate": {
+                    "key": "Umbrella liability policy expiration date",
+                    "value": "0201-01-01",
+                    "type": "date",
+                    "isValid": false,
+                    "confidence": 1
+                },
+                "umbrellaLiabilityLimitEachOccurrence": {
+                    "key": "Umbrella liability limit for each occurrence",
+                    "value": "2,000,000",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 1806,
+                            "y": 1143
+                        },
+                        "topRight": {
+                            "x": 1920,
+                            "y": 1143
+                        },
+                        "bottomLeft": {
+                            "x": 1806,
+                            "y": 1170
+                        },
+                        "bottomRight": {
+                            "x": 1920,
+                            "y": 1170
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "umbrellaLiabilityLimitAggregate": {
+                    "key": "Umbrella liability limit for aggregate",
+                    "value": "2,000,000",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 1806,
+                            "y": 1143
+                        },
+                        "topRight": {
+                            "x": 1920,
+                            "y": 1143
+                        },
+                        "bottomLeft": {
+                            "x": 1806,
+                            "y": 1170
+                        },
+                        "bottomRight": {
+                            "x": 1920,
+                            "y": 1170
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "workersCompensationProvider": {
+                    "key": "Worker's compensation provider",
+                    "value": "A",
+                    "confidence": 0.37,
+                    "location": {
+                        "topLeft": {
+                            "x": 72,
+                            "y": 70
+                        },
+                        "topRight": {
+                            "x": 286,
+                            "y": 70
+                        },
+                        "bottomLeft": {
+                            "x": 72,
+                            "y": 126
+                        },
+                        "bottomRight": {
+                            "x": 286,
+                            "y": 126
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "workersCompensationIsExcluded": {
+                    "key": "Worker's compensation is excluded",
+                    "value": "Yes",
+                    "type": "boolean",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 137,
+                            "y": 1683
+                        },
+                        "topRight": {
+                            "x": 175,
+                            "y": 1683
+                        },
+                        "bottomLeft": {
+                            "x": 137,
+                            "y": 1703
+                        },
+                        "bottomRight": {
+                            "x": 175,
+                            "y": 1703
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "workersCompensationAdditionalInsured": {
+                    "key": "Worker's compensation additional insured",
+                    "value": "N/A",
+                    "type": "static",
+                    "confidence": 1
+                },
+                "workersCompensationSubrogationWaived": {
+                    "key": "Worker's compensation subrogation waived",
+                    "value": "Yes",
+                    "type": "boolean",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 137,
+                            "y": 1683
+                        },
+                        "topRight": {
+                            "x": 175,
+                            "y": 1683
+                        },
+                        "bottomLeft": {
+                            "x": 137,
+                            "y": 1703
+                        },
+                        "bottomRight": {
+                            "x": 175,
+                            "y": 1703
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "workersCompensationPolicyNumber": {
+                    "key": "Worker's compensation policy number",
+                    "value": "12345678910",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 706,
+                            "y": 1100
+                        },
+                        "topRight": {
+                            "x": 869,
+                            "y": 1100
+                        },
+                        "bottomLeft": {
+                            "x": 706,
+                            "y": 1126
+                        },
+                        "bottomRight": {
+                            "x": 869,
+                            "y": 1126
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "workersCompensationPolicyEffectiveDate": {
+                    "key": "Worker's compensation policy effective date",
+                    "value": "2020-01-01",
+                    "type": "date",
+                    "isValid": true,
+                    "confidence": 0.98,
+                    "location": {
+                        "topLeft": {
+                            "x": 1088,
+                            "y": 1337
+                        },
+                        "topRight": {
+                            "x": 1375,
+                            "y": 1337
+                        },
+                        "bottomLeft": {
+                            "x": 1088,
+                            "y": 1368
+                        },
+                        "bottomRight": {
+                            "x": 1375,
+                            "y": 1368
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "workersCompensationPolicyExpirationDate": {
+                    "key": "Worker's compensation policy expiration date",
+                    "value": "2021-01-01",
+                    "type": "date",
+                    "isValid": false,
+                    "confidence": 1
+                },
+                "workersCompensationLimitPerStatue": {
+                    "key": "Worker's compensation limit per statue",
+                    "value": "No",
+                    "type": "boolean",
+                    "confidence": 1,
+                    "location": {
+                        "topLeft": {
+                            "x": 1219,
+                            "y": 160
+                        },
+                        "topRight": {
+                            "x": 1259,
+                            "y": 160
+                        },
+                        "bottomLeft": {
+                            "x": 1219,
+                            "y": 192
+                        },
+                        "bottomRight": {
+                            "x": 1259,
+                            "y": 192
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "workersCompensationLimitOther": {
+                    "key": "Worker's compensation limit other",
+                    "value": "",
+                    "confidence": 1
+                },
+                "workersCompensationLimitELEachAccident": {
+                    "key": "Worker's compensation limit for E.L. each accident",
+                    "value": "1,000,000",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 1810,
+                            "y": 986
+                        },
+                        "topRight": {
+                            "x": 1922,
+                            "y": 986
+                        },
+                        "bottomLeft": {
+                            "x": 1810,
+                            "y": 1012
+                        },
+                        "bottomRight": {
+                            "x": 1922,
+                            "y": 1012
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "workersCompensationLimitELDiseaseForEachEmployee": {
+                    "key": "Worker's compensation limit for E.L. disease for each employee",
+                    "value": "1,000,000",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 1810,
+                            "y": 986
+                        },
+                        "topRight": {
+                            "x": 1922,
+                            "y": 986
+                        },
+                        "bottomLeft": {
+                            "x": 1810,
+                            "y": 1012
+                        },
+                        "bottomRight": {
+                            "x": 1922,
+                            "y": 1012
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "workersCompensationLimitELDiseasePolicyLimit": {
+                    "key": "Worker's compensation limit for E.L. disease policy limit",
+                    "value": "1,000,000",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 1810,
+                            "y": 986
+                        },
+                        "topRight": {
+                            "x": 1922,
+                            "y": 986
+                        },
+                        "bottomLeft": {
+                            "x": 1810,
+                            "y": 1012
+                        },
+                        "bottomRight": {
+                            "x": 1922,
+                            "y": 1012
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "otherLiabilityProvider": {
+                    "key": "Other liability provider",
+                    "value": "B",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 904,
+                            "y": 85
+                        },
+                        "topRight": {
+                            "x": 1164,
+                            "y": 85
+                        },
+                        "bottomLeft": {
+                            "x": 904,
+                            "y": 142
+                        },
+                        "bottomRight": {
+                            "x": 1164,
+                            "y": 142
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "otherLiabilityCoverage": {
+                    "key": "Other liability coverage",
+                    "value": "Inland Marine (Owned Equipment)",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 129,
+                            "y": 1748
+                        },
+                        "topRight": {
+                            "x": 533,
+                            "y": 1748
+                        },
+                        "bottomLeft": {
+                            "x": 129,
+                            "y": 1779
+                        },
+                        "bottomRight": {
+                            "x": 533,
+                            "y": 1779
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "otherLiabilityAdditionalInsured": {
+                    "key": "Other liability additional insured",
+                    "value": "No",
+                    "type": "boolean",
+                    "confidence": 1,
+                    "location": {
+                        "topLeft": {
+                            "x": 1219,
+                            "y": 160
+                        },
+                        "topRight": {
+                            "x": 1259,
+                            "y": 160
+                        },
+                        "bottomLeft": {
+                            "x": 1219,
+                            "y": 192
+                        },
+                        "bottomRight": {
+                            "x": 1259,
+                            "y": 192
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "otherLiabilitySubrogationWaived": {
+                    "key": "Other liability subrogation waived",
+                    "value": "No",
+                    "type": "boolean",
+                    "confidence": 1,
+                    "location": {
+                        "topLeft": {
+                            "x": 1219,
+                            "y": 160
+                        },
+                        "topRight": {
+                            "x": 1259,
+                            "y": 160
+                        },
+                        "bottomLeft": {
+                            "x": 1219,
+                            "y": 192
+                        },
+                        "bottomRight": {
+                            "x": 1259,
+                            "y": 192
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "otherLiabilityPolicyNumber": {
+                    "key": "Other liability policy number",
+                    "value": "0987654321",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 705,
+                            "y": 1769
+                        },
+                        "topRight": {
+                            "x": 851,
+                            "y": 1769
+                        },
+                        "bottomLeft": {
+                            "x": 705,
+                            "y": 1797
+                        },
+                        "bottomRight": {
+                            "x": 851,
+                            "y": 1797
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "otherLiabilityPolicyEffectiveDate": {
+                    "key": "Other liability policy effective date",
+                    "value": "2019-05-07",
+                    "type": "date",
+                    "isValid": true,
+                    "confidence": 0.92,
+                    "location": {
+                        "topLeft": {
+                            "x": 63,
+                            "y": 70
+                        },
+                        "topRight": {
+                            "x": 1931,
+                            "y": 70
+                        },
+                        "bottomLeft": {
+                            "x": 63,
+                            "y": 2466
+                        },
+                        "bottomRight": {
+                            "x": 1931,
+                            "y": 2466
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "otherLiabilityPolicyExpirationDate": {
+                    "key": "Other liability policy expiration date",
+                    "value": "2020-05-07",
+                    "type": "date",
+                    "isValid": false,
+                    "confidence": 1
+                },
+                "otherLiabilityOtherLimits": {
+                    "key": "Other liability limit for Owned Equipment -Third Party Property Damage -",
+                    "value": "25,000 Third Party Property Damage -$500,000",
+                    "confidence": 1
+                }
+            },
+            "features": {
+                "creditsSpent": 5,
+                "properties": {
+                    "rotationAngle": 0,
+                    "width": 2000,
+                    "height": 2588,
+                    "isInFocus": true,
+                    "isGlareFree": true
+                },
+                "signatures": [
+                    {
+                        "image": "data:image/jpg;base64,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",
+                        "left": 1036,
+                        "top": 1794,
+                        "width": 143,
+                        "height": 77,
+                        "confidence": 0.44
+                    }
+                ]
+            },
+            "ocr": "ACORDO\nCERTIFICATE OF LIABILITY INSURANCE\nDATE (MM/DD/YYYY)\n5/31/2020\nTHIS CERTIFICATE IS ISSUED AS A MATTER OF INFORMATION ONLY AND CONFERS NO RIGHTS UPON THE CERTIFICATE HOLDER. THIS\nCERTIFICATE DOES NOT AFFIRMATIVELY OR NEGATIVELY AMEND, EXTEND OR ALTER THE COVERAGE AFFORDED BY THE POLICIES\nBELOW. THIS CERTIFICATE OF INSURANCE DOES NOT CONSTITUTE A CONTRACT BETWEEN THE ISSUING INSURER(S), AUTHORIZED\nREPRESENTATIVE OR PRODUCER, AND THE CERTIFICATE HOLDER.\nIMPORTANT: If the certificate holder is an ADDITIONAL INSURED, the policy(ies) must be endorsed. If SUBROGATION IS WAIVED, subject to\nthe terms and conditions of the policy, certain policies may require an endorsement. A statement on this certificate does not confer rights to the\ncertificate holder in lieu of such endorsement(s).\nPRODUCER\nCONTACT\nNAME:\nPHONE\nJohn Hancock\n(A/C, No. Ext): (987) 654 - 3210\nADDRESS: johnthebroker@hollywoodbrokers.com\nHollywood Insurance Brokers\n9800 Santa Monica Blvd\nBeverly Hills, CA 90210\nA/C, No): (123) 555-6789\nE-MAIL\nINSURER(S) AFFORDING COVERAGE\nINSURER A : A Really Good Insurance Company\nINSURER B : Fire and Rain Insurance\nNAIC #\n12345\nINSURED\n67890\nA Cow Jumped Over the Moon, LLC\n500 Manhattan Ave ., Ste. G\nNew York, NY 10001\nINSURER C :\nINSURER D :\nINSURER E :\nINSURER F :\nCOVERAGES\nCERTIFICATE NUMBER: ABC-12345\nREVISION NUMBER:\nTHIS IS TO CERTIFY THAT THE POLICIES OF INSURANCE LISTED BELOW HAVE BEEN ISSUED TO THE INSURED NAMED ABOVE FOR THE POLICY PERIOD\nINDICATED. NOTWITHSTANDING ANY REQUIREMENT, TERM OR CONDITION OF ANY CONTRACT OR OTHER DOCUMENT WITH RESPECT TO WHICH THIS\nCERTIFICATE MAY BE ISSUED OR MAY PERTAIN, THE INSURANCE AFFORDED BY THE POLICIES DESCRIBED HEREIN IS SUBJECT TO ALL THE TERMS,\nEXCLUSIONS AND CONDITIONS OF SUCH POLICIES. LIMITS SHOWN MAY HAVE BEEN REDUCED BY PAID CLAIMS.\nADDL SUBR\nINSR WD\n1,000,000\nINSR\nLTR\nTYPE OF INSURANCE\nPOLICY NUMBER\nPOLICY EFF\n(MM/DD/YYYY)\nPOLICY EXP\n(MM/DD/YYYY)\nLIMITS\nGENERAL LIABILITY\nEACH OCCURRENCE\nDAMAGE TO RENTED\nPREMISES (Ea occurrence)\n5,000\nX COMMERCIAL GENERAL LIABILITY\nX CLAIMS-MADE X OCCUR\nA\n5\n100,000\nMED EXP (Any one person)\n01/01/2021\n$\nX\nAdditional general liability 1\nX\nY\n12345678910\n01/01/2020\nPERSONAL & ADV IN JURY\n$\n1,000,000\n2,000,000\nADDITONAL GL 2 UPPERCASE\nGENERAL AGGREGATE\n5\nGEN'L AGGREGATE LIMIT APPLIES PER:\nX POLICY X PRO- X LOC\nAUTOMOBILE LIABILITY\nX\nA\nPRODUCTS - COMP/OP AGG\n1,000,000\n5\nKR \nXXXXXXX\n$\nCOMBINED SINGLE LIMIT\n(Ea accident)\nBODILY INJURY (Per person)\n1,000,000\nANY AUTO\nALL OWNED\nAUTOS\nNON-OWNED\nAUTOS\nEXTRA AUTO2\nX\n1,000,000\n1,000,000\nX\nX\nSCHEDULED\nAUTOS\nY\nY\n01/01/2020 01/01/2021\nPROPERTY DAMAGE\n12345678910\nBODILY INJURY (Per accident)\n$\nHIRED AUTOS\n(Per accident)\nDeductible\n$ 125,000/500,000\n1,500\nEXTRA AUTO1\n$\nUMBRELLA LIAB\nOCCUR\n12345678910\nEACH OCCURRENCE\n01/01/201\n2,000,000\nA\nX\nEXCESS LIAB\nCLAIMS-MADE\nX\nJOTH\nY\nY\n01/01/2020\nAGGREGATE\n$\n2,000,000\nDED\nRETENTION $123,456.00\nWC STATU-\nTORY LIMITS\n1,000,000\nWORKERS COMPENSATION\nAND EMPLOYERS' LIABILITY\nANY PROPRIETOR/PARTNER/EXECUTIVE\nA\nY /N\nY\nOFFICER/MEMBER EXCLUDED?\n(Mandatory in NH)\nIf yes, describe under\nDESCRIPTION OF OPERATIONS below\nV/A\nY\n1,000,000\n1,000,000\n12345678910\n$\n01/01/2020 01/01/2021\nE.L. DISEASE - EA EMPLOYEE\nE.L. EACH ACCIDENT\n$\nE.L. DISEASE - POLICY LIMIT\n5\nB\nInland Marine (Owned Equipment)\n$500,000\nN\nN\n0987654321\n05/07/2019\n05/07/2020\nOwned Equipment -\nThird Party Property Damage -\n$25,000\nDESCRIPTION OF OPERATIONS / LOCATIONS / VEHICLES (Attach ACORD 101, Additional Remarks Schedule, if more space is required)\nCertificate Holder, along with its officers, directors, and employees are named as additional insured. A waiver of subrogation applies to General and Auto\nLiability policies.\nInland Marine deductible is $1,500 for Third Party Property Damage.\nCERTIFICATE HOLDER\nCANCELLATION\nSHOULD ANY OF THE ABOVE DESCRIBED POLICIES BE CANCELLED BEFORE\nTHE EXPIRATION DATE THEREOF, NOTICE WILL BE DELIVERED IN\nACCORDANCE WITH THE POLICY PROVISIONS.\nA Very Tall Building\n780 Manhattan Ave.\n12th Floor, Ste. 102\nNew York, New York 10001\nAUTHORIZED REPRESENTATIVE\nCurie\nACORD 25 (2010/05)\n@ 1988-2010 ACORD CORPORATION. All rights reserved.\nThe ACORD name and logo are registered marks of ACORD",
+            "uuid": "3a0901cd-ea0c-4e90-a531-3cbafe2eb54e"
+        },
+        "files": {}
+    },
+    {
+        "payload": {
+            "model": {
+                "name": "New York driver license",
+                "confidence": 1,
+                "type": "driver_license/usa/ny"
+            },
+            "fields": {
+                "documentType": {
+                    "key": "Document type",
+                    "value": "Driver license",
+                    "type": "static",
+                    "isValid": true,
+                    "confidence": 1
+                },
+                "countryName": {
+                    "key": "Country name",
+                    "value": "United States of America",
+                    "isValid": true,
+                    "type": "static",
+                    "confidence": 1
+                },
+                "countryCode": {
+                    "key": "Country code",
+                    "value": "USA",
+                    "isValid": true,
+                    "type": "static",
+                    "confidence": 1
+                },
+                "stateName": {
+                    "key": "State name",
+                    "value": "New York",
+                    "isValid": true,
+                    "type": "static",
+                    "confidence": 1
+                },
+                "stateCode": {
+                    "key": "State code",
+                    "value": "NY",
+                    "type": "static",
+                    "confidence": 1
+                },
+                "driverLicenseType": {
+                    "key": "Driver license type",
+                    "value": "Learner permit",
+                    "confidence": 1,
+                    "location": {
+                        "topLeft": {
+                            "x": 139,
+                            "y": 209
+                        },
+                        "topRight": {
+                            "x": 301,
+                            "y": 116
+                        },
+                        "bottomLeft": {
+                            "x": 147,
+                            "y": 222
+                        },
+                        "bottomRight": {
+                            "x": 308,
+                            "y": 128
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "class": {
+                    "key": "Class",
+                    "value": "D",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 174,
+                            "y": 208
+                        },
+                        "topRight": {
+                            "x": 274,
+                            "y": 149
+                        },
+                        "bottomLeft": {
+                            "x": 181,
+                            "y": 220
+                        },
+                        "bottomRight": {
+                            "x": 281,
+                            "y": 162
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "givenName": {
+                    "key": "Given name",
+                    "value": "MICHAEL, MATTHEW",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 192,
+                            "y": 241
+                        },
+                        "topRight": {
+                            "x": 306,
+                            "y": 175
+                        },
+                        "bottomLeft": {
+                            "x": 199,
+                            "y": 252
+                        },
+                        "bottomRight": {
+                            "x": 313,
+                            "y": 186
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "familyName": {
+                    "key": "Family name",
+                    "value": "MOTORIST",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 185,
+                            "y": 229
+                        },
+                        "topRight": {
+                            "x": 248,
+                            "y": 192
+                        },
+                        "bottomLeft": {
+                            "x": 192,
+                            "y": 240
+                        },
+                        "bottomRight": {
+                            "x": 255,
+                            "y": 204
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "address": {
+                    "key": "Address",
+                    "value": "2345 ANYWHERE STREET\nYOUR CITY, NY 12345",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 205,
+                            "y": 263
+                        },
+                        "topRight": {
+                            "x": 336,
+                            "y": 186
+                        },
+                        "bottomLeft": {
+                            "x": 211,
+                            "y": 274
+                        },
+                        "bottomRight": {
+                            "x": 343,
+                            "y": 198
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "licenseNumber": {
+                    "key": "License number",
+                    "value": "123456789",
+                    "confidence": 1,
+                    "isValid": true,
+                    "location": {
+                        "topLeft": {
+                            "x": 337,
+                            "y": 124
+                        },
+                        "topRight": {
+                            "x": 431,
+                            "y": 69
+                        },
+                        "bottomLeft": {
+                            "x": 344,
+                            "y": 137
+                        },
+                        "bottomRight": {
+                            "x": 438,
+                            "y": 82
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "sex": {
+                    "key": "Sex",
+                    "value": "Male",
+                    "isValid": true,
+                    "confidence": 1
+                },
+                "age": {
+                    "key": "Age",
+                    "type": "number",
+                    "value": 39,
+                    "isValid": true,
+                    "confidence": 1
+                },
+                "dateOfBirth": {
+                    "key": "Date of birth",
+                    "value": "1982-08-31",
+                    "confidence": 1,
+                    "isValid": true,
+                    "type": "date"
+                },
+                "issueDate": {
+                    "key": "Issue date",
+                    "value": "2017-08-31",
+                    "confidence": 1,
+                    "isValid": true,
+                    "type": "date"
+                },
+                "expirationDate": {
+                    "key": "Expiration date",
+                    "value": "2022-08-31",
+                    "confidence": 1,
+                    "isValid": true,
+                    "type": "date"
+                },
+                "isFrontSide": {
+                    "key": "Is front side",
+                    "value": "Yes",
+                    "isValid": true,
+                    "type": "boolean",
+                    "confidence": 1,
+                    "location": {
+                        "topLeft": {
+                            "x": 327,
+                            "y": 259
+                        },
+                        "topRight": {
+                            "x": 343,
+                            "y": 250
+                        },
+                        "bottomLeft": {
+                            "x": 334,
+                            "y": 270
+                        },
+                        "bottomRight": {
+                            "x": 349,
+                            "y": 261
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "isRealId": {
+                    "key": "Is Real ID?",
+                    "type": "boolean",
+                    "value": "Yes",
+                    "confidence": 1,
+                    "location": {
+                        "topLeft": {
+                            "x": 327,
+                            "y": 259
+                        },
+                        "topRight": {
+                            "x": 343,
+                            "y": 250
+                        },
+                        "bottomLeft": {
+                            "x": 334,
+                            "y": 270
+                        },
+                        "bottomRight": {
+                            "x": 349,
+                            "y": 261
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "isEnhancedId": {
+                    "key": "Is Enhanced ID?",
+                    "type": "boolean",
+                    "value": "Yes",
+                    "confidence": 1,
+                    "location": {
+                        "topLeft": {
+                            "x": 327,
+                            "y": 259
+                        },
+                        "topRight": {
+                            "x": 343,
+                            "y": 250
+                        },
+                        "bottomLeft": {
+                            "x": 334,
+                            "y": 270
+                        },
+                        "bottomRight": {
+                            "x": 349,
+                            "y": 261
+                        },
+                        "pageNumber": 0
+                    }
+                }
+            },
+            "features": {
+                "creditsSpent": 1,
+                "properties": {
+                    "rotationAngle": -30.14,
+                    "width": 568,
+                    "height": 506,
+                    "isInFocus": true,
+                    "isGlareFree": true
+                },
+                "faces": [
+                    {
+                        "width": 128,
+                        "height": 134,
+                        "left": 20,
+                        "top": 92,
+                        "confidence": 0.97,
+                        "image": "data:image/png;base64,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"
+                    }
+                ],
+                "signatures": [
+                    {
+                        "image": "data:image/jpg;base64,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",
+                        "left": 12,
+                        "top": 237,
+                        "width": 144,
+                        "height": 23,
+                        "confidence": 0.9
+                    }
+                ]
+            },
+            "ocr": "NEW YORK STATE\nLEARNER PERMIT\nENHANCED\nUSA\nID 123 456 789\nMOTORIST\nMICHAEL, MATTHEW\nClass D\n2345 ANYWHERE STREET\nYOUR CITY, NY 12345\nSex M Height 5'-08\" Eyes BRO\nDOB08/31/1982\nExpires 08/31/2022\nE NONE\nRB\nWHAT MICHAL\nMichael Mathew Motorist\nSAMPLE\nEXCELSIOR\nAUG 82\nIssued 08/31/2017",
+            "uuid": "9cf6396b-09bc-4fe9-b506-a8d0e6b2c57d"
+        },
+        "files": {}
+    },
+    {
+        "payload": {
+            "model": {
+                "name": "Invoice",
+                "confidence": 1,
+                "type": "finance/invoice"
+            },
+            "fields": {
+                "companyName": {
+                    "key": "Company name",
+                    "value": "Repairland LLC",
+                    "confidence": 0.98,
+                    "location": {
+                        "topLeft": {
+                            "x": 55,
+                            "y": 216
+                        },
+                        "topRight": {
+                            "x": 138,
+                            "y": 216
+                        },
+                        "bottomLeft": {
+                            "x": 55,
+                            "y": 229
+                        },
+                        "bottomRight": {
+                            "x": 138,
+                            "y": 229
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "billTo": {
+                    "key": "Bill to",
+                    "value": "Jessie M Horne 2019 Redbud Drive New York, NY 10011",
+                    "confidence": 0.59,
+                    "location": {
+                        "topLeft": {
+                            "x": 216,
+                            "y": 189
+                        },
+                        "topRight": {
+                            "x": 313,
+                            "y": 189
+                        },
+                        "bottomLeft": {
+                            "x": 216,
+                            "y": 265
+                        },
+                        "bottomRight": {
+                            "x": 313,
+                            "y": 265
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "shipTo": {
+                    "key": "Ship to",
+                    "value": "Jessie M Horne 2019 Redbud Drive New York, NY 10011",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 367,
+                            "y": 188
+                        },
+                        "topRight": {
+                            "x": 462,
+                            "y": 188
+                        },
+                        "bottomLeft": {
+                            "x": 367,
+                            "y": 264
+                        },
+                        "bottomRight": {
+                            "x": 462,
+                            "y": 264
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "soldTo": {
+                    "key": "Sold to",
+                    "value": "Jessie M Horne 2019 Redbud Drive New York, NY 10011",
+                    "confidence": 1
+                },
+                "invoiceNumber": {
+                    "key": "Invoice number",
+                    "value": "INT-001",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 517,
+                            "y": 217
+                        },
+                        "topRight": {
+                            "x": 693,
+                            "y": 217
+                        },
+                        "bottomLeft": {
+                            "x": 517,
+                            "y": 227
+                        },
+                        "bottomRight": {
+                            "x": 693,
+                            "y": 227
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "invoiceDate": {
+                    "key": "Invoice date",
+                    "value": "2019-11-02",
+                    "confidence": 1,
+                    "isValid": true,
+                    "type": "date",
+                    "location": {
+                        "topLeft": {
+                            "x": 518,
+                            "y": 238
+                        },
+                        "topRight": {
+                            "x": 693,
+                            "y": 238
+                        },
+                        "bottomLeft": {
+                            "x": 518,
+                            "y": 249
+                        },
+                        "bottomRight": {
+                            "x": 693,
+                            "y": 249
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "dueDate": {
+                    "key": "Due date",
+                    "value": "2019-12-17",
+                    "isValid": false,
+                    "type": "date",
+                    "confidence": 1
+                },
+                "purchaseOrder": {
+                    "key": "Purchase order",
+                    "value": "2412/2019",
+                    "confidence": 0.91,
+                    "location": {
+                        "topLeft": {
+                            "x": 518,
+                            "y": 260
+                        },
+                        "topRight": {
+                            "x": 694,
+                            "y": 260
+                        },
+                        "bottomLeft": {
+                            "x": 518,
+                            "y": 271
+                        },
+                        "bottomRight": {
+                            "x": 694,
+                            "y": 271
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "currency": {
+                    "key": "Currency",
+                    "value": "USD",
+                    "confidence": 0.99
+                },
+                "subtotal": {
+                    "key": "Subtotal",
+                    "value": "195.00",
+                    "confidence": 1,
+                    "isValid": true,
+                    "location": {
+                        "topLeft": {
+                            "x": 506,
+                            "y": 492
+                        },
+                        "topRight": {
+                            "x": 693,
+                            "y": 492
+                        },
+                        "bottomLeft": {
+                            "x": 506,
+                            "y": 503
+                        },
+                        "bottomRight": {
+                            "x": 693,
+                            "y": 503
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "discount": {
+                    "key": "Discount",
+                    "value": "0.00",
+                    "isValid": true,
+                    "confidence": 1,
+                    "location": {
+                        "topLeft": {
+                            "x": 509,
+                            "y": 387
+                        },
+                        "topRight": {
+                            "x": 539,
+                            "y": 387
+                        },
+                        "bottomLeft": {
+                            "x": 509,
+                            "y": 398
+                        },
+                        "bottomRight": {
+                            "x": 539,
+                            "y": 398
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "deposit": {
+                    "key": "Deposit",
+                    "value": "0.00",
+                    "isValid": true,
+                    "confidence": 1,
+                    "location": {
+                        "topLeft": {
+                            "x": 509,
+                            "y": 387
+                        },
+                        "topRight": {
+                            "x": 539,
+                            "y": 387
+                        },
+                        "bottomLeft": {
+                            "x": 509,
+                            "y": 398
+                        },
+                        "bottomRight": {
+                            "x": 539,
+                            "y": 398
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "tax": {
+                    "key": "Tax",
+                    "value": "9.75",
+                    "confidence": 0.81,
+                    "isValid": true,
+                    "location": {
+                        "topLeft": {
+                            "x": 472,
+                            "y": 515
+                        },
+                        "topRight": {
+                            "x": 693,
+                            "y": 515
+                        },
+                        "bottomLeft": {
+                            "x": 472,
+                            "y": 530
+                        },
+                        "bottomRight": {
+                            "x": 693,
+                            "y": 530
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "total": {
+                    "key": "Total",
+                    "value": "204.75",
+                    "confidence": 0.99,
+                    "isValid": true,
+                    "location": {
+                        "topLeft": {
+                            "x": 56,
+                            "y": 563
+                        },
+                        "topRight": {
+                            "x": 693,
+                            "y": 563
+                        },
+                        "bottomLeft": {
+                            "x": 56,
+                            "y": 590
+                        },
+                        "bottomRight": {
+                            "x": 693,
+                            "y": 590
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "balanceDue": {
+                    "key": "Balance due",
+                    "value": "204.75",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 592,
+                            "y": 562
+                        },
+                        "topRight": {
+                            "x": 690,
+                            "y": 562
+                        },
+                        "bottomLeft": {
+                            "x": 592,
+                            "y": 588
+                        },
+                        "bottomRight": {
+                            "x": 690,
+                            "y": 588
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "accountNumber": {
+                    "key": "Account number",
+                    "value": "1234567890",
+                    "confidence": 0.8,
+                    "location": {
+                        "topLeft": {
+                            "x": 57,
+                            "y": 979
+                        },
+                        "topRight": {
+                            "x": 194,
+                            "y": 979
+                        },
+                        "bottomLeft": {
+                            "x": 57,
+                            "y": 991
+                        },
+                        "bottomRight": {
+                            "x": 194,
+                            "y": 991
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "routingNumber": {
+                    "key": "Routing number",
+                    "value": "098765432",
+                    "confidence": 0.81,
+                    "isValid": false,
+                    "location": {
+                        "topLeft": {
+                            "x": 59,
+                            "y": 998
+                        },
+                        "topRight": {
+                            "x": 150,
+                            "y": 998
+                        },
+                        "bottomLeft": {
+                            "x": 59,
+                            "y": 1010
+                        },
+                        "bottomRight": {
+                            "x": 150,
+                            "y": 1010
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "from": {
+                    "key": "FROM",
+                    "value": "Repairland LLC\n4490 Oak Drive\nAlbany, NY 12210",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 55,
+                            "y": 214
+                        },
+                        "topRight": {
+                            "x": 135,
+                            "y": 214
+                        },
+                        "bottomLeft": {
+                            "x": 55,
+                            "y": 228
+                        },
+                        "bottomRight": {
+                            "x": 135,
+                            "y": 228
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "lineItem1Description": {
+                    "key": "Line item 1 description",
+                    "value": "Front and rear brake cables",
+                    "confidence": 1,
+                    "location": {
+                        "topLeft": {
+                            "x": 109,
+                            "y": 386
+                        },
+                        "topRight": {
+                            "x": 233,
+                            "y": 386
+                        },
+                        "bottomLeft": {
+                            "x": 109,
+                            "y": 398
+                        },
+                        "bottomRight": {
+                            "x": 233,
+                            "y": 398
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "lineItem1LineTotal": {
+                    "key": "Line item 1 line total",
+                    "value": "100.00",
+                    "isValid": true,
+                    "confidence": 1,
+                    "location": {
+                        "topLeft": {
+                            "x": 509,
+                            "y": 387
+                        },
+                        "topRight": {
+                            "x": 539,
+                            "y": 387
+                        },
+                        "bottomLeft": {
+                            "x": 509,
+                            "y": 398
+                        },
+                        "bottomRight": {
+                            "x": 539,
+                            "y": 398
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "lineItem1ShippedQuantity": {
+                    "key": "Line item 1 shipped quantity",
+                    "value": "1",
+                    "confidence": 1,
+                    "isValid": true,
+                    "location": {
+                        "topLeft": {
+                            "x": 655,
+                            "y": 215
+                        },
+                        "topRight": {
+                            "x": 693,
+                            "y": 215
+                        },
+                        "bottomLeft": {
+                            "x": 655,
+                            "y": 226
+                        },
+                        "bottomRight": {
+                            "x": 693,
+                            "y": 226
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "lineItem1UnitPrice": {
+                    "key": "Line item 1 unit price",
+                    "value": "100.00",
+                    "isValid": true,
+                    "confidence": 1,
+                    "location": {
+                        "topLeft": {
+                            "x": 509,
+                            "y": 387
+                        },
+                        "topRight": {
+                            "x": 539,
+                            "y": 387
+                        },
+                        "bottomLeft": {
+                            "x": 509,
+                            "y": 398
+                        },
+                        "bottomRight": {
+                            "x": 539,
+                            "y": 398
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "lineItem2Description": {
+                    "key": "Line item 2 description",
+                    "value": "New set of pedal arms",
+                    "confidence": 1,
+                    "location": {
+                        "topLeft": {
+                            "x": 109,
+                            "y": 418
+                        },
+                        "topRight": {
+                            "x": 210,
+                            "y": 418
+                        },
+                        "bottomLeft": {
+                            "x": 109,
+                            "y": 430
+                        },
+                        "bottomRight": {
+                            "x": 210,
+                            "y": 430
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "lineItem2LineTotal": {
+                    "key": "Line item 2 line total",
+                    "value": "50.00",
+                    "isValid": true,
+                    "confidence": 0.96,
+                    "location": {
+                        "topLeft": {
+                            "x": 666,
+                            "y": 417
+                        },
+                        "topRight": {
+                            "x": 691,
+                            "y": 417
+                        },
+                        "bottomLeft": {
+                            "x": 666,
+                            "y": 427
+                        },
+                        "bottomRight": {
+                            "x": 691,
+                            "y": 427
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "lineItem2ShippedQuantity": {
+                    "key": "Line item 2 shipped quantity",
+                    "value": "2",
+                    "isValid": true,
+                    "confidence": 0.98,
+                    "location": {
+                        "topLeft": {
+                            "x": 216,
+                            "y": 233
+                        },
+                        "topRight": {
+                            "x": 238,
+                            "y": 233
+                        },
+                        "bottomLeft": {
+                            "x": 216,
+                            "y": 246
+                        },
+                        "bottomRight": {
+                            "x": 238,
+                            "y": 246
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "lineItem2UnitPrice": {
+                    "key": "Line item 2 unit price",
+                    "value": "25.00",
+                    "isValid": true,
+                    "confidence": 0.97,
+                    "location": {
+                        "topLeft": {
+                            "x": 514,
+                            "y": 417
+                        },
+                        "topRight": {
+                            "x": 538,
+                            "y": 417
+                        },
+                        "bottomLeft": {
+                            "x": 514,
+                            "y": 429
+                        },
+                        "bottomRight": {
+                            "x": 538,
+                            "y": 429
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "lineItem3Description": {
+                    "key": "Line item 3 description",
+                    "value": "Labor 3hrs",
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 110,
+                            "y": 448
+                        },
+                        "topRight": {
+                            "x": 158,
+                            "y": 448
+                        },
+                        "bottomLeft": {
+                            "x": 110,
+                            "y": 460
+                        },
+                        "bottomRight": {
+                            "x": 158,
+                            "y": 460
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "lineItem3LineTotal": {
+                    "key": "Line item 3 line total",
+                    "value": "45.00",
+                    "isValid": true,
+                    "confidence": 0.99,
+                    "location": {
+                        "topLeft": {
+                            "x": 666,
+                            "y": 448
+                        },
+                        "topRight": {
+                            "x": 693,
+                            "y": 448
+                        },
+                        "bottomLeft": {
+                            "x": 666,
+                            "y": 458
+                        },
+                        "bottomRight": {
+                            "x": 693,
+                            "y": 458
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "lineItem3ShippedQuantity": {
+                    "key": "Line item 3 shipped quantity",
+                    "value": "3",
+                    "isValid": true,
+                    "confidence": 1,
+                    "location": {
+                        "topLeft": {
+                            "x": 67,
+                            "y": 448
+                        },
+                        "topRight": {
+                            "x": 73,
+                            "y": 448
+                        },
+                        "bottomLeft": {
+                            "x": 67,
+                            "y": 457
+                        },
+                        "bottomRight": {
+                            "x": 73,
+                            "y": 457
+                        },
+                        "pageNumber": 0
+                    }
+                },
+                "lineItem3UnitPrice": {
+                    "key": "Line item 3 unit price",
+                    "value": "15.00",
+                    "isValid": true,
+                    "confidence": 0.93,
+                    "location": {
+                        "topLeft": {
+                            "x": 514,
+                            "y": 447
+                        },
+                        "topRight": {
+                            "x": 538,
+                            "y": 447
+                        },
+                        "bottomLeft": {
+                            "x": 514,
+                            "y": 459
+                        },
+                        "bottomRight": {
+                            "x": 538,
+                            "y": 459
+                        },
+                        "pageNumber": 0
+                    }
+                }
+            },
+            "features": {
+                "tables": [
+                    [
+                        [
+                            "QTY",
+                            "DESCRIPTION",
+                            "UNIT PRICE",
+                            "AMOUNT"
+                        ],
+                        [
+                            "1",
+                            "Front and rear brake cables",
+                            "100.00",
+                            "100.00"
+                        ],
+                        [
+                            "2",
+                            "New set of pedal arms",
+                            "25.00",
+                            "50.00"
+                        ],
+                        [
+                            "3",
+                            "Labor 3hrs",
+                            "15.00",
+                            "45.00"
+                        ]
+                    ]
+                ],
+                "creditsSpent": 2,
+                "properties": {
+                    "rotationAngle": 0,
+                    "width": 750,
+                    "height": 1061,
+                    "isInFocus": true,
+                    "isGlareFree": true
+                }
+            },
+            "ocr": "INVOICE\nFROM\nBILL TO\nSHIP TO\nRepairland LLC\nJessie M Horne\nJessie M Horne\nINVOICE #\nINT-001\n4490 Oak Drive\n2019 Redbud Drive\n2019 Redbud Drive\nINVOICE DATE\nNew York, NY 10011\n11/02/2019\nAlbany, NY 12210\nNew York, NY 10011\nP.O.#\n2412/2019\nQTY\nDESCRIPTION\nUNIT PRICE\nAMOUNT\n1\nFront and rear brake cables\n100.00\n100.00\n2\nNew set of pedal arms\n25.00\n50.00\n3\nLabor 3hrs\n15.00\n45.00\nSubtotal\n195.00\nSales Tax 5.0%\n9.75\nTOTAL\n$204.75\nTERMS & CONDITIONS\nPayment is due within 45 days\nName of Bank\nAccount number: 1234567890\nRouting: 098765432",
+            "uuid": "2e250395-427b-4df8-9d32-6e384fcc8e7e"
+        },
+        "files": {}
+    }
+]

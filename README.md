@@ -16,7 +16,7 @@ This robot demonstrates the usage of [Base64.ai](https://base64.ai) API for dete
 - Create a [Slack webhook](https://slack.com/help/articles/115005265063-Incoming-webhooks-for-Slack) that allows posting to your workspace.
 - Create a Vault in [Control Room](https://cloud.robocorp.com) called `Slack`that has two secrets: `webhook` that contains the webhook URL that you got from Slack, and `channel` which is the channel where the messages are posted. 
 
-![Frame 1](https://user-images.githubusercontent.com/40179958/184807896-0925f38e-be67-439a-a201-84f5484c292f.png)
+![Frame 1](https://user-images.githubusercontent.com/40179958/184808022-b5c94565-406c-44d9-96fd-2b5ae1e83e2a.png)
 
 ## Running the robot
 

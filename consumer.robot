@@ -9,7 +9,7 @@ Library     RPA.Notifier
 
 *** Tasks ***
 Consume items
-    [Documentation]    Login and then cycle through work items.
+    [Documentation]    Cycle through work items.
     TRY
         For Each Input Work Item    Handle item
     EXCEPT    AS    ${err}
@@ -25,7 +25,8 @@ Consume items
 *** Keywords ***
 Action for item
     [Documentation]
-    ...    Extract data from the images using Base64.ai API.
+    ...    Get document extraction payloads and do something with them.
+    ...    This example just posts document model name and confidence to Slack.
     [Arguments]    ${payload}
 
     # Send the model name and confidence to Slack

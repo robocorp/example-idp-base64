@@ -28,8 +28,9 @@ Produce items
 *** Keywords ***
 Unpack files
     [Documentation]
-    ...    Convert all jpgs and pngs from attachments to base64
-    ...    and create output workitems.
+    ...    Convert all jpgs and pngs from attachments to base64,
+    ...    send extraction request to Base64 API,
+    ...    and create output workitems out of response JSONs.
     ${paths}=    Get Work Item Files    *
 
     FOR    ${path}    IN    @{paths}
@@ -38,7 +39,7 @@ Unpack files
         # Take only file extension
         ${fileext}=    Fetch From Right    ${path}    .
 
-        # Currently supports only jpegs and pngs, ignoring the rest.
+        # Currently supports only jpegs and pngs, ignoring the rest!
         IF    "${fileext}" == "jpg" or "${fileext}" == "jpeg"
             ${type}=    Set Variable    image/jpeg
         ELSE IF    "${fileext}" == "png"
@@ -48,7 +49,7 @@ Unpack files
             Continue For Loop
         END
 
-        # Convert picture to base64 encoding
+        # Convert picture to base64 encoding using included Python method from convert.py
         ${base64string}=    Image To Base64    ${path}
 
         # Create Base64.ai authentication headers
@@ -56,12 +57,12 @@ Unpack files
         ${headers}=    Create Dictionary
         ...    Authorization=${base64_secret}[auth-header]
 
-        # Create Base64.ai json payload
+        # Create Base64.ai API JSON payload
         ${string}=    Catenate    SEPARATOR=    data:    ${type}    ;base64,    ${base64string}
         ${body}=    Create Dictionary
         ...    image= ${string}
 
-        # Post to Base64.ai API
+        # Post to Base64.ai API. TODO: Add error handling.
         ${response}=    POST
         ...    url=${BASE64_API_URL}
         ...    headers=${headers}
@@ -69,6 +70,7 @@ Unpack files
 
         Log    ${response.json()}[0][model]
 
+        # Create output workitem from full API responses.
         Create Output Work Item
         ...    variables=${response.json()}[0]
         ...    save=True

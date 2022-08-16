@@ -6,9 +6,6 @@ Library     RPA.Tables
 Library     RPA.Robocorp.Vault
 Library     RPA.Notifier
 
-*** Variables ***
-${channel}           alerts-dev-tommi
-
 
 *** Tasks ***
 Consume items
@@ -37,7 +34,7 @@ Action for item
 
     Notify Slack
     ...    message=${message}
-    ...    channel=${channel}
+    ...    channel=${slack_secret}[channel]
     ...    webhook_url=${slack_secret}[webhook]
 
 Handle item

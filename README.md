@@ -1,35 +1,20 @@
-# Template for producer-consumer model robots using work items (TO BE UPDATED)
+# Intelligent document processing (IDP) with Base64.ai
 
-This template contains a working robot implementation that has the basic structure where one part produces work items from input and another part that consumes those work items.
+This robot demonstrates the usage of [Base64.ai](https://base64.ai) API for detecting document types and extracting the structured data from any of their supported document types.
 
-> The [producer-consumer](https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem) model is not limited to two steps, it can continue so that the consumer generates further work items for the next step and so on.
+- The robot is divided in a producer and consumer tasks:
+  - The producer parses email attachements and converts files to base64 encoding and sends the extraction request to Base64.ai API. The first task produces a work item for each supported attachment that has the JSON response from Base64.ai API as the payload.
+  - Consumer processes each work item, and for the demonstration purposes sends the information of the document type to a Slack channel. This is where one would implement the business logic for each document type.
+- Example implementation supports only `.png`  and `.jpg`/`.jpeg` attachment types, all the rest are omitted.
+- There are size limitations of the work item payload size (100 000 bytes), the implementation will not handle the over the max size situations.
+- The implementation demonstrates parallel processing capabilities of Robocorp platform, as each output work item from the producer is realeased for the processing by Consumer immediately when ready, and there can be multiple parallel executions of Consumer robots.
 
-The template tries to keep the amount of functional code at a minimum so you have less to clear out and replace with your own implementation, but some functional logic is needed to have the template working and guiding the key parts.
+## Prerequisites
 
-> We recommended checking out the article "[Using work items](https://robocorp.com/docs/development-guide/control-room/work-items)" before diving in.
-
-
-> Also a fully functional example robot can be found at: [Web Store Order Processor Using Work Items](https://robocorp.com/portal/robot/robocorp/example-web-store-work-items)
+-
 
 
-## Tasks
-
-The robot is split into two tasks, meant to run as separate steps in Control Room. The first task generates (produces) data, and the second one reads (consumes) and processes that data.
-
-### The first task (the producer)
-
-- Load the example Excel file from work item
-- Splits the Excel file into work items for the consumer
-
-### The second task (the consumer)
-
-> We recommended checking out the article "[Work item exception handling](https://robocorp.com/docs/development-guide/control-room/work-items#work-item-exception-handling)" before diving in.
-
-- A simulated "Login" step.
-  - This simulates random failures to highlight the use of `APPLICATION` -exception type.
-- Loop that handles the work items and just creates a logs row for each
-  - This simulates random failures to highlight the use of `BUSINESS` -exception type.
-
-### Local testing
-
-For best experience to test the work items in this example we recommend using [our VS Code extensions](https://robocorp.com/docs/developer-tools/visual-studio-code). With the Robocorp Code extension you can simply run and [select the input work items](https://robocorp.com/docs/developer-tools/visual-studio-code/extension-features#using-work-items) to use, create inputs to simulate error cases and so on.
+Recommended further reading:
+- The [Producer-consumer](https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem) model is not limited to two steps.
+- [Using work items](https://robocorp.com/docs/development-guide/control-room/work-items)
+- [Work item exception handling](https://robocorp.com/docs/development-guide/control-room/work-items#work-item-exception-handling)

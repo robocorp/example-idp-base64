@@ -8,13 +8,11 @@ Library     String
 Library     RPA.Robocorp.Vault
 Library     RPA.HTTP
 
-
 *** Variables ***
 # USE THE MOCK ENDPOINT FOR DEV TIME TESTING
 # AS IT DOES NOT CONSUME CREDITS
 #${BASE64_API_URL}    https://base64.ai/mock/scan
 ${BASE64_API_URL}    https://base64.ai/api/scan
-
 
 *** Tasks ***
 Produce items
@@ -23,7 +21,6 @@ Produce items
     ...    Read look for jpeg and png files.
     ...    Convert to base64 encoding and create output workitems for each.
     For Each Input Work Item    Unpack files
-
 
 *** Keywords ***
 Unpack files

@@ -6,21 +6,10 @@ Library     RPA.Tables
 Library     RPA.Robocorp.Vault
 Library     RPA.Notifier
 
-
 *** Tasks ***
 Consume items
     [Documentation]    Cycle through work items.
-    TRY
-        For Each Input Work Item    Handle item
-    EXCEPT    AS    ${err}
-        Log    ${err}    level=ERROR
-        Release Input Work Item
-        ...    state=FAILED
-        ...    exception_type=APPLICATION
-        ...    code=UNCAUGHT_ERROR
-        ...    message=${err}
-    END
-
+    For Each Input Work Item    Handle item
 
 *** Keywords ***
 Action for item

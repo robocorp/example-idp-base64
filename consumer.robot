@@ -18,9 +18,32 @@ Action for item
     ...    This example just posts document model name and confidence to Slack.
     [Arguments]    ${payload}
 
+    #
+    # THE FOLLOWING BLOCK SIMULATES DOCUMENT TRIAGE BASED ON THE CONFIDENCE RESULT,
+    # AND IT'S TYPE. THIS PART WOULD BE REPLACED WITH REAL BUSINESS LOGIC.
+    #
+
+    IF    "${payload}[model][type]" == "semantic/ajok"                # Finnish driver licence
+        ${message}=    Catenate    Processing Finnish drivers licence, owner    ${payload}[fields][2][value]    with licence nr    ${payload}[fields][4d][value]
+
+    ELSE IF   "${payload}[model][type]" == "driver_license/usa/ny"    # US/NY driver licence
+        ${message}=    Catenate    Processing US/NY drivers licence, owner    ${payload}[fields][givenName][value]    ${payload}[fields][familyName][value]    with licence nr    ${payload}[fields][licenseNumber][value]
+
+    ELSE IF   "${payload}[model][type]" == "driver_license/usa/ca"    # US/CA driver licence
+        ${message}=    Catenate    Processing US/CA drivers licence, owner    ${payload}[fields][givenName][value]    ${payload}[fields][familyName][value]    with licence nr    ${payload}[fields][licenseNumber][value]
+
+    ELSE IF   "${payload}[model][type]" == "finance/invoice"          # purchase invoice
+        ${message}=    Catenate    Processing purchase invoice from    ${payload}[fields][companyName][value]    total value    ${payload}[fields][total][value]    and due date in    ${payload}[fields][dueDate][value]
+
+    ELSE IF   "${payload}[model][type]" == "insurance/acord/25"       # ACORD 25 liability cert
+        ${message}=    Catenate    Processing ACORD 25 liability cert nr    ${payload}[fields][certificateNumber][value]    produced by     ${payload}[fields][producer][value]    for the insured     ${payload}[fields][insured][value]    says:    ${payload}[fields][description][value]
+
+    ELSE
+        ${message}=    Catenate    There was a document type without handler implemented:     ${payload}[model][name]
+    END
+
     # Send the model name and confidence to Slack
     ${slack_secret}=    Get Secret    Slack
-    ${message}=    Catenate    Your attachment was    ${payload}[model][name]    with confidenced of    ${payload}[model][confidence]
 
     Notify Slack
     ...    message=${message}

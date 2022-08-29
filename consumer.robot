@@ -6,6 +6,9 @@ Library     RPA.Tables
 Library     RPA.Robocorp.Vault
 Library     RPA.Notifier
 
+*** Variables ***
+${THRESHOLD}    0.8
+
 *** Tasks ***
 Consume items
     [Documentation]    Cycle through work items.
@@ -23,7 +26,9 @@ Action for item
     # AND IT'S TYPE. THIS PART WOULD BE REPLACED WITH REAL BUSINESS LOGIC.
     #
 
-    IF    "${payload}[model][type]" == "semantic/ajok"                # Finnish driver licence
+    IF    ${payload}[model][confidence] < ${THRESHOLD}
+        Fail    Manual review
+    ELSE IF    "${payload}[model][type]" == "semantic/ajok"                # Finnish driver licence
         ${message}=    Catenate    Processing Finnish drivers licence, owner    ${payload}[fields][2][value]    with licence nr    ${payload}[fields][4d][value]
 
     ELSE IF   "${payload}[model][type]" == "driver_license/usa/ny"    # US/NY driver licence
@@ -67,6 +72,15 @@ Handle item
         ...    state=FAILED
         ...    exception_type=BUSINESS
         ...    code=INVALID_DATA
+        ...    message=${error_message}
+    EXCEPT    Manual review    type=START    AS    ${err}
+        ${error_message}=    Set Variable
+        ...    Work Item needs manual review and processing ${err}
+        Log    ${error_message}    level=INFO
+        Release Input Work Item
+        ...    state=FAILED
+        ...    exception_type=BUSINESS
+        ...    code=MANUAL
         ...    message=${error_message}
     EXCEPT    *timed out*    type=GLOB    AS    ${err}
         ${error_message}=    Set Variable

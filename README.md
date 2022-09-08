@@ -2,6 +2,17 @@
 
 This robot demonstrates the usage of [Base64.ai](https://base64.ai) API for detecting document types and extracting the structured data from any of their supported document types.
 
+## What you'll learn with this reference architecture
+
+- Using Base64.ai API for categorising document types and extracting structured data
+- Working with Work Data Management with Producer/Consumer robot template
+- Triggering robots with emails
+- Using `RPA.Notifier` to send Slack messages
+
+The reference architecture splits tasks to separate steps allowing the hyperscaling of the automation operations. However, the example simplifies the tasks af the document extraction and simply has a case-by-case handler per document type that sends key details of the document to Slack.
+
+## How does it work
+
 - The robot is divided in a producer and consumer tasks:
   - The producer parses email attachements and sends the extraction request to Base64.ai API. The first task produces a work item for each supported attachment that has the JSON response from Base64.ai API as the payload.
   - Consumer processes each work item, and for the demonstration purposes sends the information of the document type to a Slack channel. This is where one would implement the business logic for each document type.

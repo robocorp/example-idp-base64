@@ -1,14 +1,8 @@
 *** Settings ***
-Library     RPA.Excel.Files
 Library     RPA.Robocorp.WorkItems
-Library     RPA.Tables
 Library     RPA.Robocorp.Vault
-Library     RPA.HTTP
 Library     RPA.Base64AI
-Library     Collections
 Library     String
-Library    RPA.Browser
-Library    RPA.RobotLogListener
 
 *** Variables ***
 # Supported extensions
@@ -25,9 +19,8 @@ Produce items
 *** Keywords ***
 Unpack files
     [Documentation]
-    ...    Convert all jpgs and pngs from attachments to base64,
-    ...    send extraction request to Base64 API,
-    ...    and create output workitems out of response JSONs.
+    ...    Send supported files to Base64.ai for extraction.
+    ...    Create output work items from responses.
     ${paths}=    Get Work Item Files    *
 
     FOR    ${path}    IN    @{paths}

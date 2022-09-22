@@ -1,10 +1,10 @@
 # Intelligent document processing (IDP) with Base64.ai
 
-This robot demonstrates the usage of [Base64.ai](https://base64.ai) API for detecting document types and extracting the structured data from any of their supported document types.
+This robot demonstrates the usage of [Base64.ai](https://base64.ai) library `RPA.Base64AI` for detecting document types and extracting the structured data from any of their supported document types.
 
 ## What you'll learn with this reference architecture
 
-- Using Base64.ai API for categorising document types and extracting structured data
+- Using `RPA.Base64AI` for categorising document types and extracting structured data
 - Working with Work Data Management with Producer/Consumer robot template
 - Triggering robots with emails
 - Using `RPA.Notifier` to send Slack messages
@@ -18,18 +18,15 @@ The reference architecture splits tasks to separate steps allowing the hyperscal
 - The robot is divided in a producer and consumer tasks:
   - The producer parses email attachements and sends the extraction request to Base64.ai API. The first task produces a work item for each supported attachment that has the JSON response from Base64.ai API as the payload.
   - Consumer processes each work item, and for the demonstration purposes sends the information of the document type to a Slack channel. This is where one would implement the business logic for each document type.
-- Example implementation supports only `.png`  and `.jpg`/`.jpeg` attachment types, all the rest are omitted.
 - There are size limitations of the work item payload size (100 000 bytes), the implementation will not handle the over the max size situations.
 - The implementation demonstrates parallel processing capabilities of Robocorp platform, as each output work item from the producer is realeased for the processing by Consumer immediately when ready, and there can be multiple parallel executions of Consumer robots.
 
 ## Prerequisites
 
 - Get a free (or paid) API key from [Base64.ai](https://base64.ai).
-- Create a Vault in [Control Room](https://cloud.robocorp.com) called `Base64` that has one secret called `auth-header`. This secret should contain a value that looks like this: `ApiKey YOUR_EMAIL:YOUR_API_KEY`.
+- Create a Vault in [Control Room](https://cloud.robocorp.com) called `Base64` that has two secrets called `email` and `api-key`.
 - Create a [Slack webhook](https://slack.com/help/articles/115005265063-Incoming-webhooks-for-Slack) that allows posting to your workspace.
 - Create a Vault in [Control Room](https://cloud.robocorp.com) called `Slack` that has two secrets: `webhook` that contains the webhook URL that you got from Slack, and `channel` which is the channel where the messages are posted.
-
-![Frame 1](https://user-images.githubusercontent.com/40179958/184808022-b5c94565-406c-44d9-96fd-2b5ae1e83e2a.png)
 
 ## Running the robot
 

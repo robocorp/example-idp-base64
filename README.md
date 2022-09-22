@@ -11,7 +11,7 @@ This robot demonstrates the usage of [Base64.ai](https://base64.ai) library `RPA
 
 The reference architecture splits tasks to separate steps allowing the hyperscaling of the automation operations. However, the example simplifies the tasks af the document extraction and simply has a case-by-case handler per document type that sends key details of the document to Slack.
 
-<img width="1062" alt="Screenshot 2022-09-08 at 11 57 07" src="https://user-images.githubusercontent.com/40179958/189204427-b30cd8b9-572b-4a23-b830-92171b25b356.png">
+![image](https://user-images.githubusercontent.com/40179958/191695046-bb38e294-6693-4a66-b50c-a1cfef592611.png)
 
 ## How does it work
 

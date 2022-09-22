@@ -11,7 +11,7 @@ This robot demonstrates the usage of [Base64.ai](https://base64.ai) library `RPA
 
 The reference architecture splits tasks to separate steps allowing the hyperscaling of the automation operations. However, the example simplifies the tasks af the document extraction and simply has a case-by-case handler per document type that sends key details of the document to Slack.
 
-<img width="1062" alt="Screenshot 2022-09-08 at 11 57 07" src="https://user-images.githubusercontent.com/40179958/189204427-b30cd8b9-572b-4a23-b830-92171b25b356.png">
+![image](https://user-images.githubusercontent.com/40179958/191695046-bb38e294-6693-4a66-b50c-a1cfef592611.png)
 
 ## How does it work
 
@@ -27,6 +27,8 @@ The reference architecture splits tasks to separate steps allowing the hyperscal
 - Create a Vault in [Control Room](https://cloud.robocorp.com) called `Base64` that has two secrets called `email` and `api-key`.
 - Create a [Slack webhook](https://slack.com/help/articles/115005265063-Incoming-webhooks-for-Slack) that allows posting to your workspace.
 - Create a Vault in [Control Room](https://cloud.robocorp.com) called `Slack` that has two secrets: `webhook` that contains the webhook URL that you got from Slack, and `channel` which is the channel where the messages are posted.
+
+![image](https://user-images.githubusercontent.com/40179958/191694637-fcbb2ab6-798d-413a-8fd2-3f47a07c74ed.png)
 
 ## Running the robot
 

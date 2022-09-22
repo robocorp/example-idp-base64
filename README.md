@@ -28,6 +28,8 @@ The reference architecture splits tasks to separate steps allowing the hyperscal
 - Create a [Slack webhook](https://slack.com/help/articles/115005265063-Incoming-webhooks-for-Slack) that allows posting to your workspace.
 - Create a Vault in [Control Room](https://cloud.robocorp.com) called `Slack` that has two secrets: `webhook` that contains the webhook URL that you got from Slack, and `channel` which is the channel where the messages are posted.
 
+![image](https://user-images.githubusercontent.com/40179958/191694637-fcbb2ab6-798d-413a-8fd2-3f47a07c74ed.png)
+
 ## Running the robot
 
 While it's possible to run the robot in your development environment with the provided example data, it's meant to be used with email as a trigger. Once you have uploaded the robot code to the Control Room, configure a new process with two steps following the example of the picture.

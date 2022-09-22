@@ -1,18 +1,12 @@
 *** Settings ***
-Library     Collections
 Library     RPA.Excel.Files
 Library     RPA.Robocorp.WorkItems
 Library     RPA.Tables
-Library     convert         # convert.py
-Library     String
 Library     RPA.Robocorp.Vault
 Library     RPA.HTTP
-
-*** Variables ***
-# USE THE MOCK ENDPOINT FOR DEV TIME TESTING
-# AS IT DOES NOT CONSUME CREDITS
-#${BASE64_API_URL}    https://base64.ai/mock/scan
-${BASE64_API_URL}    https://base64.ai/api/scan
+Library     RPA.Base64AI
+Library     Collections
+Library     String
 
 *** Tasks ***
 Produce items
@@ -33,43 +27,16 @@ Unpack files
     FOR    ${path}    IN    @{paths}
         Log To Console    ${path}
 
-        # Take only file extension
-        ${fileext}=    Fetch From Right    ${path}    .
-
-        # Currently supports only jpegs and pngs, ignoring the rest!
-        IF    "${fileext}" == "jpg" or "${fileext}" == "jpeg"
-            ${type}=    Set Variable    image/jpeg
-        ELSE IF    "${fileext}" == "png"
-            ${type}=    Set Variable    image/png
-        ELSE
-            Log    Not supported file type, skipping.
-            Continue For Loop
-        END
-
-        # Convert picture to base64 encoding using included Python method from convert.py
-        ${base64string}=    Image To Base64    ${path}
-
-        # Create Base64.ai authentication headers
+        # Base64.ai authentication
         ${base64_secret}=    Get Secret    Base64
-        ${headers}=    Create Dictionary
-        ...    Authorization=${base64_secret}[auth-header]
+        Set Authorization  ${base64_secret}[email]   ${base64_secret}[api-key]
 
-        # Create Base64.ai API JSON payload
-        ${string}=    Catenate    SEPARATOR=    data:    ${type}    ;base64,    ${base64string}
-        ${body}=    Create Dictionary
-        ...    image= ${string}
-
-        # Post to Base64.ai API. TODO: Add error handling.
-        ${response}=    POST
-        ...    url=${BASE64_API_URL}
-        ...    headers=${headers}
-        ...    json=${body}
-
-        Log    ${response.json()}[0][model]
+        ${results}=  Scan Document File  ${path}
+        Log    ${results}[0][model]
 
         # Create output workitem from full API responses.
         Create Output Work Item
-        ...    variables=${response.json()}[0]
+        ...    variables=${results}[0]
         ...    save=True
 
     END

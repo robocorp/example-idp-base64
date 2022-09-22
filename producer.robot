@@ -7,6 +7,12 @@ Library     RPA.HTTP
 Library     RPA.Base64AI
 Library     Collections
 Library     String
+Library    RPA.Browser
+Library    RPA.RobotLogListener
+
+*** Variables ***
+# Supported extensions
+@{extensions}       jpg    jpeg    png    pdf    bmp    heic    webp    tif    tiff    doc    dox    xls    xlsx    ppt    pptx    ods    odt    odp
 
 *** Tasks ***
 Produce items
@@ -25,19 +31,26 @@ Unpack files
     ${paths}=    Get Work Item Files    *
 
     FOR    ${path}    IN    @{paths}
-        Log To Console    ${path}
 
-        # Base64.ai authentication
-        ${base64_secret}=    Get Secret    Base64
-        Set Authorization  ${base64_secret}[email]   ${base64_secret}[api-key]
+        # Take only file extension
+        ${fileext}=    Fetch From Right    ${path}    .
 
-        ${results}=  Scan Document File  ${path}
-        Log    ${results}[0][model]
+        IF     $fileext.lower() in $extensions
+            Log To Console    Working on file ${path}
 
-        # Create output workitem from full API responses.
-        Create Output Work Item
-        ...    variables=${results}[0]
-        ...    save=True
+            # Base64.ai authentication
+            ${base64_secret}=    Get Secret    Base64
+            Set Authorization  ${base64_secret}[email]   ${base64_secret}[api-key]
 
+            ${results}=  Scan Document File  ${path}
+            Log    ${results}[0][model]
+
+            # Create output workitem from full API responses.
+            Create Output Work Item
+            ...    variables=${results}[0]
+            ...    save=True
+        ELSE
+            Log To Console    Ignoring file ${path}
+        END
     END
     Release Input Work Item    DONE

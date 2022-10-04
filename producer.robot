@@ -29,7 +29,7 @@ Unpack files
         ${fileext}=    Fetch From Right    ${path}    .
 
         IF     $fileext.lower() in $extensions
-            Log To Console    Working on file ${path}
+            Log To Console    Working on file: ${path}
 
             # Base64.ai authentication
             ${base64_secret}=    Get Secret    Base64

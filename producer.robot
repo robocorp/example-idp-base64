@@ -1,7 +1,7 @@
 *** Settings ***
 Library     RPA.Robocorp.WorkItems
 Library     RPA.Robocorp.Vault
-Library     RPA.Base64AI
+Library     RPA.DocumentAI.Base64AI
 Library     String
 
 *** Variables ***

@@ -1,10 +1,10 @@
 # Intelligent document processing (IDP) with Base64.ai
 
-This robot demonstrates the usage of [Base64.ai](https://base64.ai) library `RPA.Base64AI` for detecting document types and extracting structured data from any of their supported document types.
+This robot demonstrates the usage of [Base64.ai](https://base64.ai) library `RPA.DocumentAI.Base64AI` for detecting document types and extracting structured data from any of their supported document types.
 
 ## What you'll learn with this reference architecture
 
-- Using `RPA.Base64AI` for categorising document types and extracting structured data
+- Using `RPA.DocumentAI.Base64AI` for categorising document types and extracting structured data
 - Working with Work Data Management with Producer/Consumer robot template
 - Triggering robots with emails
 - Using `RPA.Notifier` to send Slack messages

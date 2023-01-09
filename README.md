@@ -16,9 +16,8 @@ The reference architecture splits tasks into separate steps, allowing for the hy
 ## How does it work
 
 - The robot is divided in a producer and consumer tasks:
-  - The Producer parses email attachments and sends the extraction request to the Base64.ai API. The first task produces a work item for each supported attachment that has the JSON response from the Base64.ai API as the payload.
+  - The Producer parses email attachments and sends the extraction request to the Base64.ai API. The first task produces a work item for each supported attachment that has the JSON response from the Base64.ai API as the work item file, and model details as a payload.
   - The Consumer processes each work item, and for demonstration purposes, sends the document type information to a Slack channel. This is where one would implement the business logic for each document type.
-- There is a 100,000-byte limitation to the work item payload size - and the implementation will not handle over-the-max size situations.
 - The implementation demonstrates the parallel processing capabilities of the Robocorp platform, as each work item output from the Producer is released for processing by the Consumer immediately when ready - and there can be multiple parallel executions of Consumer robots.
 
 ## Prerequisites

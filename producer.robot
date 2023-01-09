@@ -1,8 +1,10 @@
 *** Settings ***
+Library     String
+Library     OperatingSystem
 Library     RPA.Robocorp.WorkItems
 Library     RPA.Robocorp.Vault
 Library     RPA.DocumentAI.Base64AI
-Library     String
+Library     RPA.JSON
 
 *** Variables ***
 # Supported extensions
@@ -38,10 +40,14 @@ Unpack files
             ${results}=  Scan Document File  ${path}
             Log    ${results}[0][model]
 
-            # Create output workitem from full API responses.
-            Create Output Work Item
-            ...    variables=${results}[0]
-            ...    save=True
+            # Take the name of the file to use for resulting json
+            ${filename}=    Fetch From Left    ${path}    .
+            Save JSON to file    ${results}[0]    ${filename}.json
+
+            # Creates an output workitem with used model as a payload, and result as a file
+            Create Output Work Item    variables=${results}[0][model]    files=${filename}.json
+            Save Work Item
+
         ELSE
             Log To Console    Ignoring file ${path}
         END

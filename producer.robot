@@ -13,7 +13,7 @@ Produce items
     [Documentation]
     ...    Get email workitem that triggered the process.
     ...    Read look for jpeg and png files.
-    ...    Convert to base64 encoding and create output workitems for each.
+    ...    Extract data with base64 and create output workitems for each.
     For Each Input Work Item    Unpack files
 
 *** Keywords ***

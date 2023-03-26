@@ -5,6 +5,7 @@ Library     RPA.Robocorp.WorkItems
 Library     RPA.Tables
 Library     RPA.Robocorp.Vault
 Library     RPA.Notifier
+Library     RPA.JSON
 
 *** Variables ***
 ${THRESHOLD}    0.8
@@ -12,9 +13,58 @@ ${THRESHOLD}    0.8
 *** Tasks ***
 Consume items
     [Documentation]    Cycle through work items.
-    For Each Input Work Item    Handle item
+    For Each Input Work Item    Unpack files
 
 *** Keywords ***
+Unpack files
+    [Documentation]
+    ...    Get files from the workitems and iterate through all of them.
+    ...    Handle possible errors raised by the ahe action for items.
+
+    ${paths}    Get Work Item Files    *
+
+    # Loop through all potential files (JSON results from base64.ai)
+    FOR    ${path}    IN    @{paths}
+        Log    ${path}
+        &{content}=    Load JSON from file    ${path}
+
+        # Error handling around the work item
+        TRY
+            Action for item    ${content}
+            Release Input Work Item    DONE
+        EXCEPT    Invalid data    type=START    AS    ${err}
+            # Giving a good error message here means that data related errors can
+            # be fixed faster in Control Room.
+            # You can extract the text from the underlying error message.
+            ${error_message}=    Set Variable
+            ...    Data may be invalid, encountered error: ${err}
+            Log    ${error_message}    level=ERROR
+            Release Input Work Item
+            ...    state=FAILED
+            ...    exception_type=BUSINESS
+            ...    code=INVALID_DATA
+            ...    message=${error_message}
+        EXCEPT    Manual review    type=START    AS    ${err}
+            ${error_message}=    Set Variable
+            ...    Work Item needs manual review and processing ${err}
+            Log    ${error_message}    level=INFO
+            Release Input Work Item
+            ...    state=FAILED
+            ...    exception_type=BUSINESS
+            ...    code=MANUAL
+            ...    message=${error_message}
+        EXCEPT    *timed out*    type=GLOB    AS    ${err}
+            ${error_message}=    Set Variable
+            ...    Application error encountered: ${err}
+            Log    ${error_message}    level=ERROR
+            Release Input Work Item
+            ...    state=FAILED
+            ...    exception_type=APPLICATION
+            ...    code=TIMEOUT
+            ...    message=${error_message}
+        END
+    END
+
 Action for item
     [Documentation]
     ...    Get document extraction payloads and do something with them.
@@ -54,41 +104,3 @@ Action for item
     ...    message=${message}
     ...    channel=${slack_secret}[channel]
     ...    webhook_url=${slack_secret}[webhook]
-
-Handle item
-    [Documentation]    Error handling around one work item.
-    ${payload}=    Get Work Item Variables
-    TRY
-        Action for item    ${payload}
-        Release Input Work Item    DONE
-    EXCEPT    Invalid data    type=START    AS    ${err}
-        # Giving a good error message here means that data related errors can
-        # be fixed faster in Control Room.
-        # You can extract the text from the underlying error message.
-        ${error_message}=    Set Variable
-        ...    Data may be invalid, encountered error: ${err}
-        Log    ${error_message}    level=ERROR
-        Release Input Work Item
-        ...    state=FAILED
-        ...    exception_type=BUSINESS
-        ...    code=INVALID_DATA
-        ...    message=${error_message}
-    EXCEPT    Manual review    type=START    AS    ${err}
-        ${error_message}=    Set Variable
-        ...    Work Item needs manual review and processing ${err}
-        Log    ${error_message}    level=INFO
-        Release Input Work Item
-        ...    state=FAILED
-        ...    exception_type=BUSINESS
-        ...    code=MANUAL
-        ...    message=${error_message}
-    EXCEPT    *timed out*    type=GLOB    AS    ${err}
-        ${error_message}=    Set Variable
-        ...    Application error encountered: ${err}
-        Log    ${error_message}    level=ERROR
-        Release Input Work Item
-        ...    state=FAILED
-        ...    exception_type=APPLICATION
-        ...    code=TIMEOUT
-        ...    message=${error_message}
-    END
